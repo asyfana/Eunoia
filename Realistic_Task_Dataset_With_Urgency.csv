@@ -1,0 +1,1001 @@
+Task_ID,Task_Type,Priority,Completion_Status,Dependency,Task_Importance,Estimated_Time,Interruptions,Workload,Task_Creation_Time,Deadline,Hours_To_Deadline,Urgency_Score
+TASK_0001,Testing,Low,In Progress,None,6,7.1,1.2,4.3,2025-06-01 16:00:00,2025-06-03 23:00:00,55.0,4.0
+TASK_0002,Presentation,Medium,Completed,None,5,2.8,2.8,5.5,2025-06-05 04:00:00,2025-06-09 10:00:00,102.0,3.5
+TASK_0003,Design,High,Pending,Internal,9,6.9,1.0,7.5,2025-06-03 15:00:00,2025-06-06 20:00:00,77.0,5.1
+TASK_0004,Report Writing,Low,Completed,None,2,6.9,0.5,2.0,2025-06-04 18:00:00,2025-06-06 07:00:00,37.0,2.6
+TASK_0005,Research,Low,In Progress,None,1,6.2,4.6,4.7,2025-06-04 16:00:00,2025-06-06 07:00:00,39.0,3.2
+TASK_0006,Assignment,Low,Pending,None,8,1.6,4.1,5.4,2025-06-01 12:00:00,2025-06-04 13:00:00,73.0,4.5
+TASK_0007,Testing,High,Pending,Internal,3,5.7,3.8,5.9,2025-06-03 23:00:00,2025-06-05 21:00:00,46.0,3.6
+TASK_0008,Training,Medium,Completed,None,7,7.6,0.2,8.4,2025-06-03 07:00:00,2025-06-08 00:00:00,113.0,4.4
+TASK_0009,Report Writing,Low,In Progress,None,10,5.6,4.2,2.5,2025-06-01 04:00:00,2025-06-01 23:00:00,19.0,6.0
+TASK_0010,Report Writing,High,Completed,None,8,3.0,2.2,8.3,2025-06-01 11:00:00,2025-06-04 01:00:00,62.0,4.7
+TASK_0011,Assignment,High,Pending,None,6,4.3,1.7,7.2,2025-06-02 16:00:00,2025-06-05 00:00:00,56.0,4.1
+TASK_0012,Review,Low,Pending,Internal,10,5.3,2.7,6.0,2025-06-01 02:00:00,2025-06-02 00:00:00,22.0,5.9
+TASK_0013,Research,Medium,In Progress,External,9,4.3,0.5,7.3,2025-06-05 02:00:00,2025-06-09 07:00:00,101.0,4.6
+TASK_0014,Analysis,High,Pending,None,7,1.4,3.8,4.7,2025-06-02 08:00:00,2025-06-06 04:00:00,92.0,4.0
+TASK_0015,Assignment,Medium,In Progress,External,10,2.8,2.9,2.2,2025-06-04 13:00:00,2025-06-08 15:00:00,98.0,4.7
+TASK_0016,Planning,Low,Completed,None,5,6.5,0.9,7.0,2025-06-03 01:00:00,2025-06-07 21:00:00,116.0,3.7
+TASK_0017,Exam Preparation,Low,Completed,Internal,8,7.0,0.9,5.7,2025-06-03 07:00:00,2025-06-05 03:00:00,44.0,4.8
+TASK_0018,Deployment,Low,Completed,Internal,2,1.5,0.9,6.8,2025-06-05 11:00:00,2025-06-08 23:00:00,84.0,2.2
+TASK_0019,Planning,High,Completed,None,7,7.6,0.3,4.0,2025-06-01 08:00:00,2025-06-03 10:00:00,50.0,4.2
+TASK_0020,Assignment,High,Pending,Internal,4,3.0,2.9,9.2,2025-06-05 08:00:00,2025-06-09 09:00:00,97.0,3.6
+TASK_0021,Meeting,Low,In Progress,External,9,5.5,4.2,6.3,2025-06-04 09:00:00,2025-06-08 19:00:00,106.0,5.3
+TASK_0022,Exam Preparation,Low,In Progress,None,1,6.1,0.1,1.8,2025-06-03 01:00:00,2025-06-05 10:00:00,57.0,1.9
+TASK_0023,Exam Preparation,Low,Completed,None,7,6.6,0.2,5.0,2025-06-02 04:00:00,2025-06-04 14:00:00,58.0,4.1
+TASK_0024,Brainstorming,Low,Pending,None,6,7.6,2.9,7.8,2025-06-02 14:00:00,2025-06-06 16:00:00,98.0,4.6
+TASK_0025,Documentation,High,In Progress,External,8,2.8,4.1,8.1,2025-06-04 18:00:00,2025-06-05 16:00:00,22.0,5.5
+TASK_0026,Lecture Notes Review,Medium,Pending,Internal,5,6.9,1.6,5.5,2025-06-05 03:00:00,2025-06-07 20:00:00,65.0,3.8
+TASK_0027,Design,Medium,In Progress,External,1,1.5,1.7,9.1,2025-06-02 20:00:00,2025-06-07 02:00:00,102.0,2.3
+TASK_0028,Design,Low,Completed,Internal,1,5.8,3.0,3.4,2025-06-01 16:00:00,2025-06-05 16:00:00,96.0,2.5
+TASK_0029,Training,Medium,Completed,External,9,6.1,1.4,4.7,2025-06-03 07:00:00,2025-06-05 21:00:00,62.0,4.8
+TASK_0030,Exam Preparation,Medium,Pending,Internal,10,5.6,0.1,9.1,2025-06-05 01:00:00,2025-06-07 21:00:00,68.0,5.3
+TASK_0031,Presentation,High,Completed,External,6,2.4,3.7,9.1,2025-06-02 21:00:00,2025-06-05 20:00:00,71.0,4.3
+TASK_0032,Analysis,Low,In Progress,None,10,7.0,3.1,7.2,2025-06-03 18:00:00,2025-06-05 01:00:00,31.0,6.1
+TASK_0033,Development,High,Pending,None,5,1.8,2.9,8.7,2025-06-03 20:00:00,2025-06-04 17:00:00,21.0,4.3
+TASK_0034,Training,Medium,Pending,Internal,1,0.9,3.7,1.8,2025-06-01 13:00:00,2025-06-02 18:00:00,29.0,2.3
+TASK_0035,Testing,Low,Pending,None,6,5.9,3.4,8.8,2025-06-03 18:00:00,2025-06-08 05:00:00,107.0,4.6
+TASK_0036,Assignment,Medium,Pending,Internal,6,4.1,1.0,3.9,2025-06-01 22:00:00,2025-06-02 20:00:00,22.0,4.1
+TASK_0037,Customer Support,High,Completed,None,3,6.9,1.8,2.6,2025-06-05 06:00:00,2025-06-07 16:00:00,58.0,3.0
+TASK_0038,Testing,High,In Progress,None,8,3.4,0.6,3.2,2025-06-04 21:00:00,2025-06-07 09:00:00,60.0,3.9
+TASK_0039,Bug Fixing,Medium,Completed,Internal,1,1.8,0.6,4.8,2025-06-05 17:00:00,2025-06-06 02:00:00,9.0,3.4
+TASK_0040,Review,Medium,Pending,None,1,6.8,3.4,3.3,2025-06-05 12:00:00,2025-06-05 16:00:00,4.0,6.2
+TASK_0041,Case Study,High,Pending,None,6,4.6,4.3,3.9,2025-06-03 12:00:00,2025-06-03 23:00:00,11.0,5.5
+TASK_0042,Bug Fixing,Medium,In Progress,None,10,1.9,4.8,2.2,2025-06-01 22:00:00,2025-06-06 02:00:00,100.0,4.9
+TASK_0043,Customer Support,Low,Pending,Internal,1,5.9,3.1,3.7,2025-06-02 02:00:00,2025-06-04 08:00:00,54.0,2.7
+TASK_0044,Assignment,High,In Progress,None,6,4.3,0.9,6.2,2025-06-03 05:00:00,2025-06-07 19:00:00,110.0,3.7
+TASK_0045,Planning,Low,Completed,Internal,1,5.0,0.5,5.0,2025-06-01 09:00:00,2025-06-05 01:00:00,88.0,2.1
+TASK_0046,Presentation,Medium,In Progress,None,6,4.0,4.1,4.1,2025-06-04 16:00:00,2025-06-08 11:00:00,91.0,4.0
+TASK_0047,Design,Low,In Progress,Internal,3,6.7,2.9,7.7,2025-06-04 04:00:00,2025-06-05 08:00:00,28.0,4.0
+TASK_0048,Testing,Low,Pending,Internal,8,6.7,3.1,9.0,2025-06-01 15:00:00,2025-06-03 17:00:00,50.0,5.4
+TASK_0049,Exam Preparation,Medium,Pending,None,6,5.8,3.9,7.8,2025-06-02 16:00:00,2025-06-05 02:00:00,58.0,4.7
+TASK_0050,Research,High,Pending,None,1,1.3,3.5,4.0,2025-06-05 01:00:00,2025-06-07 20:00:00,67.0,2.1
+TASK_0051,Design,Low,In Progress,None,5,6.8,4.2,7.7,2025-06-03 06:00:00,2025-06-07 20:00:00,110.0,4.4
+TASK_0052,Analysis,Low,Pending,External,8,5.5,0.3,2.4,2025-06-05 04:00:00,2025-06-08 18:00:00,86.0,4.0
+TASK_0053,Case Study,Low,Pending,None,3,5.7,3.7,2.2,2025-06-03 12:00:00,2025-06-07 12:00:00,96.0,3.0
+TASK_0054,Brainstorming,Medium,In Progress,None,6,3.2,4.3,4.1,2025-06-04 13:00:00,2025-06-05 02:00:00,13.0,5.1
+TASK_0055,Review,High,Pending,None,5,7.1,1.4,8.3,2025-06-04 08:00:00,2025-06-06 19:00:00,59.0,4.1
+TASK_0056,Bug Fixing,Medium,Pending,None,6,5.9,3.2,3.2,2025-06-04 14:00:00,2025-06-05 05:00:00,15.0,5.0
+TASK_0057,Research,Medium,Pending,None,10,1.3,1.6,1.6,2025-06-05 21:00:00,2025-06-07 09:00:00,36.0,4.5
+TASK_0058,Review,High,Completed,External,1,3.6,4.8,2.2,2025-06-05 03:00:00,2025-06-08 05:00:00,74.0,2.4
+TASK_0059,Planning,Medium,In Progress,Internal,7,7.1,0.2,8.7,2025-06-03 00:00:00,2025-06-03 20:00:00,20.0,5.1
+TASK_0060,Deployment,Low,In Progress,None,9,0.9,2.9,6.7,2025-06-04 00:00:00,2025-06-06 16:00:00,64.0,4.7
+TASK_0061,Documentation,Low,Pending,None,2,7.7,0.8,3.3,2025-06-03 03:00:00,2025-06-03 16:00:00,13.0,3.7
+TASK_0062,Review,Medium,Completed,None,10,5.6,3.6,6.0,2025-06-01 01:00:00,2025-06-02 11:00:00,34.0,5.8
+TASK_0063,Bug Fixing,Medium,In Progress,Internal,5,5.2,0.9,5.7,2025-06-04 23:00:00,2025-06-07 14:00:00,63.0,3.5
+TASK_0064,Exam Preparation,Medium,Pending,Internal,10,2.5,1.2,6.9,2025-06-05 23:00:00,2025-06-09 00:00:00,73.0,4.8
+TASK_0065,Planning,High,Completed,Internal,4,2.4,2.5,3.1,2025-06-03 01:00:00,2025-06-03 21:00:00,20.0,3.5
+TASK_0066,Documentation,Medium,Pending,Internal,6,7.6,4.6,8.8,2025-06-05 20:00:00,2025-06-08 01:00:00,53.0,5.2
+TASK_0067,Review,Medium,In Progress,None,6,2.7,1.1,3.8,2025-06-04 13:00:00,2025-06-06 05:00:00,40.0,3.5
+TASK_0068,Case Study,Medium,In Progress,Internal,2,6.3,0.7,7.2,2025-06-02 18:00:00,2025-06-06 07:00:00,85.0,2.8
+TASK_0069,Lecture Notes Review,Medium,Pending,External,2,3.4,3.8,1.1,2025-06-04 04:00:00,2025-06-06 21:00:00,65.0,2.5
+TASK_0070,Design,High,Completed,None,4,1.5,2.5,4.4,2025-06-01 07:00:00,2025-06-05 04:00:00,93.0,2.9
+TASK_0071,Research,Medium,Completed,Internal,1,0.6,4.6,4.2,2025-06-03 10:00:00,2025-06-08 06:00:00,116.0,2.2
+TASK_0072,Case Study,Low,In Progress,None,9,4.6,0.7,5.9,2025-06-03 16:00:00,2025-06-07 03:00:00,83.0,4.6
+TASK_0073,Research,High,Pending,External,7,7.8,3.2,1.7,2025-06-04 08:00:00,2025-06-07 11:00:00,75.0,4.4
+TASK_0074,Assignment,Medium,Pending,None,7,3.3,1.2,8.1,2025-06-01 11:00:00,2025-06-05 06:00:00,91.0,4.1
+TASK_0075,Lecture Notes Review,Medium,Pending,None,3,3.2,0.8,3.0,2025-06-01 03:00:00,2025-06-04 11:00:00,80.0,2.3
+TASK_0076,Group Project,Medium,Completed,External,3,3.1,3.4,7.1,2025-06-05 20:00:00,2025-06-07 04:00:00,32.0,3.5
+TASK_0077,Bug Fixing,Medium,Pending,None,1,4.4,3.0,8.2,2025-06-04 04:00:00,2025-06-05 15:00:00,35.0,3.1
+TASK_0078,Design,High,In Progress,None,3,3.8,3.8,6.1,2025-06-04 22:00:00,2025-06-08 17:00:00,91.0,3.2
+TASK_0079,Assignment,Low,Completed,None,3,7.1,1.5,7.7,2025-06-02 16:00:00,2025-06-06 03:00:00,83.0,3.4
+TASK_0080,Group Project,Medium,Pending,Internal,4,4.3,2.2,7.0,2025-06-01 06:00:00,2025-06-01 20:00:00,14.0,4.4
+TASK_0081,Customer Support,Low,In Progress,None,4,4.3,2.0,4.2,2025-06-04 14:00:00,2025-06-08 17:00:00,99.0,3.1
+TASK_0082,Design,High,Pending,None,3,1.5,4.9,8.3,2025-06-04 15:00:00,2025-06-05 00:00:00,9.0,5.1
+TASK_0083,Group Project,Low,Completed,Internal,10,7.9,1.5,3.7,2025-06-03 20:00:00,2025-06-05 10:00:00,38.0,5.5
+TASK_0084,Meeting,High,In Progress,Internal,8,2.4,1.5,6.1,2025-06-03 20:00:00,2025-06-05 08:00:00,36.0,4.5
+TASK_0085,Testing,Medium,Pending,None,8,1.1,1.8,7.7,2025-06-04 08:00:00,2025-06-05 05:00:00,21.0,4.9
+TASK_0086,Customer Support,High,Pending,External,1,5.5,2.8,4.4,2025-06-02 05:00:00,2025-06-03 21:00:00,40.0,2.7
+TASK_0087,Meeting,High,In Progress,Internal,7,5.0,1.3,3.7,2025-06-04 00:00:00,2025-06-04 16:00:00,16.0,4.8
+TASK_0088,Exam Preparation,High,Completed,Internal,2,3.6,4.6,5.1,2025-06-01 05:00:00,2025-06-04 10:00:00,77.0,3.0
+TASK_0089,Research,High,Completed,None,1,3.7,1.3,8.4,2025-06-04 16:00:00,2025-06-09 00:00:00,104.0,2.4
+TASK_0090,Report Writing,Medium,In Progress,None,3,6.4,4.5,9.4,2025-06-01 18:00:00,2025-06-05 15:00:00,93.0,4.0
+TASK_0091,Training,Medium,Pending,None,4,2.0,0.5,5.9,2025-06-04 07:00:00,2025-06-09 00:00:00,113.0,2.7
+TASK_0092,Brainstorming,Low,Pending,None,6,6.7,3.3,7.0,2025-06-04 12:00:00,2025-06-08 00:00:00,84.0,4.5
+TASK_0093,Research,Low,Pending,None,10,5.4,4.5,9.1,2025-06-03 17:00:00,2025-06-06 12:00:00,67.0,6.0
+TASK_0094,Analysis,Medium,In Progress,None,5,3.6,0.8,1.9,2025-06-01 09:00:00,2025-06-01 13:00:00,4.0,6.4
+TASK_0095,Analysis,Medium,Completed,External,4,3.9,4.8,3.1,2025-06-01 15:00:00,2025-06-04 09:00:00,66.0,3.5
+TASK_0096,Meeting,Medium,In Progress,None,8,2.4,2.3,7.4,2025-06-02 12:00:00,2025-06-06 08:00:00,92.0,4.4
+TASK_0097,Development,Medium,Pending,None,4,6.1,4.7,8.4,2025-06-04 06:00:00,2025-06-05 19:00:00,37.0,4.5
+TASK_0098,Documentation,High,In Progress,Internal,10,4.3,3.4,8.7,2025-06-04 04:00:00,2025-06-08 14:00:00,106.0,5.6
+TASK_0099,Testing,Medium,Completed,None,2,2.9,1.5,4.7,2025-06-04 04:00:00,2025-06-04 17:00:00,13.0,3.4
+TASK_0100,Customer Support,High,Completed,None,3,5.0,0.9,1.8,2025-06-02 07:00:00,2025-06-05 22:00:00,87.0,2.4
+TASK_0101,Testing,High,Completed,Internal,6,8.0,1.5,4.9,2025-06-05 12:00:00,2025-06-05 22:00:00,10.0,5.6
+TASK_0102,Customer Support,High,Pending,None,8,3.8,0.5,3.1,2025-06-02 22:00:00,2025-06-05 09:00:00,59.0,4.0
+TASK_0103,Research,Medium,Pending,External,8,7.4,0.7,3.6,2025-06-05 13:00:00,2025-06-09 00:00:00,83.0,4.4
+TASK_0104,Exam Preparation,High,Completed,External,9,3.1,0.5,8.0,2025-06-03 23:00:00,2025-06-05 15:00:00,40.0,4.8
+TASK_0105,Planning,High,In Progress,None,7,0.9,2.1,1.7,2025-06-02 18:00:00,2025-06-04 02:00:00,32.0,3.7
+TASK_0106,Meeting,High,Pending,Internal,2,2.0,4.0,8.4,2025-06-04 09:00:00,2025-06-05 00:00:00,15.0,4.0
+TASK_0107,Lecture Notes Review,Low,Completed,None,8,3.6,0.7,4.8,2025-06-05 23:00:00,2025-06-06 19:00:00,20.0,4.7
+TASK_0108,Development,Medium,Completed,None,7,2.1,0.7,6.4,2025-06-02 11:00:00,2025-06-04 14:00:00,51.0,3.9
+TASK_0109,Analysis,Medium,In Progress,None,8,0.5,3.2,1.8,2025-06-02 01:00:00,2025-06-05 16:00:00,87.0,3.8
+TASK_0110,Exam Preparation,Low,In Progress,None,3,7.4,1.0,4.0,2025-06-01 09:00:00,2025-06-02 14:00:00,29.0,3.4
+TASK_0111,Research,Medium,Pending,Internal,7,6.8,0.5,1.8,2025-06-02 06:00:00,2025-06-07 01:00:00,115.0,3.7
+TASK_0112,Analysis,High,In Progress,None,10,6.1,0.8,9.7,2025-06-05 00:00:00,2025-06-08 14:00:00,86.0,5.4
+TASK_0113,Meeting,High,In Progress,None,9,1.8,4.6,8.3,2025-06-02 04:00:00,2025-06-06 22:00:00,114.0,5.1
+TASK_0114,Analysis,Low,Completed,None,3,1.4,4.1,5.1,2025-06-01 04:00:00,2025-06-01 19:00:00,15.0,3.9
+TASK_0115,Development,High,Completed,None,10,1.0,1.8,3.0,2025-06-04 04:00:00,2025-06-05 04:00:00,24.0,4.9
+TASK_0116,Design,Medium,Completed,None,6,5.9,3.3,9.4,2025-06-01 00:00:00,2025-06-02 21:00:00,45.0,4.8
+TASK_0117,Case Study,High,Pending,None,2,7.5,2.7,4.1,2025-06-04 14:00:00,2025-06-07 06:00:00,64.0,3.1
+TASK_0118,Analysis,High,Completed,External,2,3.7,3.4,2.4,2025-06-05 07:00:00,2025-06-07 20:00:00,61.0,2.6
+TASK_0119,Meeting,Medium,Completed,None,5,1.4,3.4,6.1,2025-06-01 02:00:00,2025-06-03 11:00:00,57.0,3.6
+TASK_0120,Development,Medium,In Progress,None,5,4.3,3.1,9.5,2025-06-03 18:00:00,2025-06-05 07:00:00,37.0,4.4
+TASK_0121,Case Study,High,Completed,None,7,3.1,1.3,1.0,2025-06-03 22:00:00,2025-06-04 08:00:00,10.0,4.9
+TASK_0122,Testing,Medium,Completed,None,2,3.3,0.2,3.1,2025-06-05 03:00:00,2025-06-09 19:00:00,112.0,1.9
+TASK_0123,Customer Support,Low,In Progress,Internal,7,5.2,2.3,9.4,2025-06-02 10:00:00,2025-06-04 00:00:00,38.0,4.9
+TASK_0124,Design,High,In Progress,None,5,5.9,4.5,2.5,2025-06-01 14:00:00,2025-06-02 08:00:00,18.0,4.6
+TASK_0125,Design,Medium,Pending,None,6,1.3,2.8,2.0,2025-06-05 07:00:00,2025-06-08 03:00:00,68.0,3.3
+TASK_0126,Documentation,High,Pending,None,8,0.8,4.2,6.1,2025-06-03 18:00:00,2025-06-07 15:00:00,93.0,4.4
+TASK_0127,Group Project,Medium,In Progress,External,10,8.0,5.0,8.8,2025-06-04 20:00:00,2025-06-09 02:00:00,102.0,6.3
+TASK_0128,Training,High,Completed,External,4,2.2,0.8,5.3,2025-06-02 05:00:00,2025-06-03 09:00:00,28.0,3.2
+TASK_0129,Testing,Low,Pending,None,7,0.9,3.5,10.0,2025-06-05 06:00:00,2025-06-09 19:00:00,109.0,4.4
+TASK_0130,Brainstorming,High,Pending,External,6,1.9,3.4,7.1,2025-06-04 09:00:00,2025-06-06 23:00:00,62.0,4.0
+TASK_0131,Presentation,High,In Progress,External,10,0.8,4.9,1.7,2025-06-04 02:00:00,2025-06-07 12:00:00,82.0,4.8
+TASK_0132,Review,Low,Pending,Internal,2,3.4,4.9,9.9,2025-06-02 18:00:00,2025-06-06 11:00:00,89.0,3.5
+TASK_0133,Development,Medium,Pending,Internal,8,6.5,3.4,4.7,2025-06-05 16:00:00,2025-06-06 01:00:00,9.0,6.5
+TASK_0134,Testing,High,Pending,None,10,3.1,1.2,3.6,2025-06-03 11:00:00,2025-06-05 18:00:00,55.0,4.7
+TASK_0135,Group Project,Medium,Pending,None,9,3.8,4.0,6.0,2025-06-05 05:00:00,2025-06-08 15:00:00,82.0,5.1
+TASK_0136,Design,Low,Pending,None,5,5.6,0.5,3.7,2025-06-02 15:00:00,2025-06-06 10:00:00,91.0,3.2
+TASK_0137,Report Writing,Medium,Pending,None,10,4.3,3.9,1.8,2025-06-03 16:00:00,2025-06-04 16:00:00,24.0,5.5
+TASK_0138,Review,Medium,In Progress,Internal,4,7.0,4.6,1.0,2025-06-02 04:00:00,2025-06-05 06:00:00,74.0,3.6
+TASK_0139,Group Project,High,Completed,None,6,7.0,1.9,5.0,2025-06-04 01:00:00,2025-06-08 01:00:00,96.0,4.1
+TASK_0140,Testing,Medium,In Progress,None,8,0.6,3.2,8.5,2025-06-04 19:00:00,2025-06-08 22:00:00,99.0,4.5
+TASK_0141,Training,Medium,Completed,External,3,6.3,2.2,6.2,2025-06-04 22:00:00,2025-06-06 09:00:00,35.0,3.6
+TASK_0142,Planning,Low,Pending,None,10,4.0,2.2,10.0,2025-06-01 18:00:00,2025-06-04 02:00:00,56.0,5.6
+TASK_0143,Documentation,Medium,Pending,None,1,7.9,1.6,3.6,2025-06-01 02:00:00,2025-06-03 16:00:00,62.0,2.6
+TASK_0144,Group Project,Medium,Completed,None,4,4.1,3.8,3.5,2025-06-02 11:00:00,2025-06-05 11:00:00,72.0,3.4
+TASK_0145,Assignment,Low,Pending,None,4,7.9,4.7,2.4,2025-06-02 18:00:00,2025-06-05 11:00:00,65.0,3.9
+TASK_0146,Deployment,High,In Progress,External,1,6.2,4.7,2.5,2025-06-01 14:00:00,2025-06-01 21:00:00,7.0,4.9
+TASK_0147,Exam Preparation,Medium,In Progress,None,9,2.4,0.9,3.6,2025-06-05 00:00:00,2025-06-08 17:00:00,89.0,4.1
+TASK_0148,Exam Preparation,Medium,In Progress,None,3,4.5,4.4,8.1,2025-06-02 16:00:00,2025-06-03 13:00:00,21.0,4.3
+TASK_0149,Presentation,High,Pending,None,5,7.9,3.7,9.2,2025-06-05 10:00:00,2025-06-09 16:00:00,102.0,4.6
+TASK_0150,Report Writing,Medium,Pending,None,6,6.9,1.3,9.8,2025-06-05 18:00:00,2025-06-09 06:00:00,84.0,4.4
+TASK_0151,Testing,High,In Progress,External,8,1.2,0.3,3.1,2025-06-05 12:00:00,2025-06-10 09:00:00,117.0,3.5
+TASK_0152,Meeting,Medium,Pending,None,6,5.8,1.3,8.9,2025-06-04 17:00:00,2025-06-09 14:00:00,117.0,4.2
+TASK_0153,Meeting,Low,In Progress,None,3,3.1,4.6,4.0,2025-06-04 07:00:00,2025-06-06 18:00:00,59.0,3.2
+TASK_0154,Presentation,Medium,Completed,Internal,6,0.6,3.2,2.0,2025-06-02 11:00:00,2025-06-03 14:00:00,27.0,3.7
+TASK_0155,Group Project,Medium,Completed,External,1,3.5,3.6,8.8,2025-06-05 00:00:00,2025-06-07 21:00:00,69.0,2.9
+TASK_0156,Customer Support,High,Pending,None,4,2.3,1.3,6.7,2025-06-04 11:00:00,2025-06-05 03:00:00,16.0,3.9
+TASK_0157,Analysis,Low,Completed,None,6,6.6,3.6,2.5,2025-06-04 04:00:00,2025-06-06 21:00:00,65.0,4.2
+TASK_0158,Testing,Low,In Progress,External,7,3.0,0.1,4.9,2025-06-02 08:00:00,2025-06-04 17:00:00,57.0,3.7
+TASK_0159,Deployment,Low,Pending,External,10,6.7,1.9,3.6,2025-06-01 04:00:00,2025-06-01 22:00:00,18.0,5.9
+TASK_0160,Research,Low,Pending,None,3,0.5,3.1,7.6,2025-06-05 04:00:00,2025-06-08 04:00:00,72.0,2.9
+TASK_0161,Customer Support,High,Completed,Internal,9,2.8,0.7,5.1,2025-06-04 05:00:00,2025-06-04 11:00:00,6.0,6.7
+TASK_0162,Development,Low,Pending,None,7,2.3,4.1,9.9,2025-06-04 18:00:00,2025-06-06 10:00:00,40.0,4.9
+TASK_0163,Meeting,Medium,Pending,None,1,2.3,1.2,1.5,2025-06-04 14:00:00,2025-06-06 06:00:00,40.0,1.8
+TASK_0164,Training,Medium,Pending,None,2,1.0,3.3,4.2,2025-06-01 13:00:00,2025-06-05 21:00:00,104.0,2.3
+TASK_0165,Documentation,Medium,Completed,None,1,1.9,2.0,5.3,2025-06-05 07:00:00,2025-06-05 13:00:00,6.0,4.5
+TASK_0166,Exam Preparation,High,Completed,Internal,9,4.7,3.0,5.5,2025-06-03 19:00:00,2025-06-06 13:00:00,66.0,5.0
+TASK_0167,Design,Medium,Completed,None,9,2.7,0.5,3.8,2025-06-05 06:00:00,2025-06-06 20:00:00,38.0,4.4
+TASK_0168,Customer Support,High,Pending,None,7,3.6,0.1,7.6,2025-06-05 19:00:00,2025-06-08 02:00:00,55.0,4.0
+TASK_0169,Presentation,Medium,Pending,Internal,10,3.3,4.5,8.9,2025-06-04 10:00:00,2025-06-08 04:00:00,90.0,5.7
+TASK_0170,Brainstorming,Medium,In Progress,None,3,7.1,1.3,9.4,2025-06-02 22:00:00,2025-06-04 05:00:00,31.0,3.9
+TASK_0171,Brainstorming,High,In Progress,None,5,7.3,4.1,8.2,2025-06-03 05:00:00,2025-06-07 06:00:00,97.0,4.5
+TASK_0172,Presentation,Low,Pending,None,4,4.2,5.0,8.7,2025-06-01 03:00:00,2025-06-02 00:00:00,21.0,4.7
+TASK_0173,Exam Preparation,Low,In Progress,None,7,3.0,1.1,6.0,2025-06-04 21:00:00,2025-06-09 20:00:00,119.0,3.8
+TASK_0174,Testing,High,Completed,None,9,1.3,1.3,8.4,2025-06-04 10:00:00,2025-06-06 01:00:00,39.0,4.8
+TASK_0175,Planning,Low,Completed,External,2,7.7,3.3,3.7,2025-06-04 22:00:00,2025-06-06 10:00:00,36.0,3.4
+TASK_0176,Analysis,High,Completed,None,8,1.0,4.8,4.6,2025-06-04 22:00:00,2025-06-07 17:00:00,67.0,4.5
+TASK_0177,Brainstorming,Medium,Completed,None,9,2.7,4.6,3.9,2025-06-01 08:00:00,2025-06-02 13:00:00,29.0,5.3
+TASK_0178,Development,High,Pending,External,10,2.7,2.5,5.2,2025-06-03 04:00:00,2025-06-05 07:00:00,51.0,5.0
+TASK_0179,Brainstorming,High,In Progress,External,10,2.9,4.0,3.6,2025-06-04 04:00:00,2025-06-05 23:00:00,43.0,5.2
+TASK_0180,Brainstorming,Medium,Completed,None,9,1.7,0.7,9.7,2025-06-04 05:00:00,2025-06-05 01:00:00,20.0,5.3
+TASK_0181,Brainstorming,High,Pending,None,10,6.4,4.9,3.8,2025-06-05 22:00:00,2025-06-07 17:00:00,43.0,5.8
+TASK_0182,Planning,Medium,Completed,None,7,1.4,4.8,1.9,2025-06-03 11:00:00,2025-06-03 21:00:00,10.0,5.4
+TASK_0183,Planning,High,In Progress,None,9,5.3,0.8,5.7,2025-06-02 21:00:00,2025-06-05 09:00:00,60.0,4.7
+TASK_0184,Development,Low,In Progress,None,9,1.4,1.5,1.5,2025-06-03 05:00:00,2025-06-03 16:00:00,11.0,5.2
+TASK_0185,Meeting,Medium,In Progress,None,3,1.0,0.5,2.0,2025-06-04 01:00:00,2025-06-06 12:00:00,59.0,2.0
+TASK_0186,Meeting,Low,Completed,Internal,4,7.3,1.4,3.0,2025-06-05 15:00:00,2025-06-07 01:00:00,34.0,3.5
+TASK_0187,Training,Medium,Completed,None,2,1.9,4.1,5.2,2025-06-04 22:00:00,2025-06-07 12:00:00,62.0,2.8
+TASK_0188,Planning,Low,Pending,External,10,6.7,1.9,4.9,2025-06-02 12:00:00,2025-06-05 01:00:00,61.0,5.3
+TASK_0189,Assignment,High,Completed,None,3,4.6,0.4,8.2,2025-06-01 22:00:00,2025-06-02 13:00:00,15.0,3.9
+TASK_0190,Exam Preparation,High,Pending,External,5,1.1,1.7,7.7,2025-06-02 02:00:00,2025-06-04 05:00:00,51.0,3.5
+TASK_0191,Deployment,High,Pending,External,5,7.7,4.9,4.8,2025-06-03 21:00:00,2025-06-05 07:00:00,34.0,4.7
+TASK_0192,Review,Low,In Progress,Internal,6,2.4,3.1,4.0,2025-06-04 17:00:00,2025-06-09 08:00:00,111.0,3.6
+TASK_0193,Report Writing,Medium,In Progress,None,7,6.9,2.1,3.8,2025-06-03 17:00:00,2025-06-07 07:00:00,86.0,4.3
+TASK_0194,Brainstorming,Medium,In Progress,None,7,1.8,0.8,8.0,2025-06-05 12:00:00,2025-06-08 06:00:00,66.0,3.9
+TASK_0195,Deployment,Medium,Completed,None,1,6.9,4.9,1.5,2025-06-03 12:00:00,2025-06-06 17:00:00,77.0,2.8
+TASK_0196,Development,Medium,Completed,External,2,0.6,4.1,1.1,2025-06-04 04:00:00,2025-06-05 22:00:00,42.0,2.3
+TASK_0197,Presentation,Medium,In Progress,None,9,4.3,1.4,8.2,2025-06-03 02:00:00,2025-06-06 09:00:00,79.0,4.9
+TASK_0198,Planning,High,Pending,None,10,6.3,0.4,5.3,2025-06-03 01:00:00,2025-06-04 00:00:00,23.0,5.5
+TASK_0199,Deployment,Medium,Completed,None,2,7.5,0.3,2.2,2025-06-01 18:00:00,2025-06-06 02:00:00,104.0,2.3
+TASK_0200,Report Writing,Medium,Completed,None,6,7.3,0.6,3.1,2025-06-01 00:00:00,2025-06-03 03:00:00,51.0,3.8
+TASK_0201,Lecture Notes Review,Low,Completed,None,1,6.6,2.9,9.4,2025-06-02 15:00:00,2025-06-07 03:00:00,108.0,3.1
+TASK_0202,Lecture Notes Review,Low,Pending,None,3,7.2,4.6,8.7,2025-06-02 07:00:00,2025-06-05 09:00:00,74.0,4.1
+TASK_0203,Meeting,Low,Pending,Internal,2,2.0,2.5,7.4,2025-06-01 21:00:00,2025-06-06 20:00:00,119.0,2.6
+TASK_0204,Customer Support,High,Pending,External,3,2.6,4.2,5.3,2025-06-05 15:00:00,2025-06-08 00:00:00,57.0,3.2
+TASK_0205,Deployment,Low,Pending,Internal,5,2.7,2.2,5.7,2025-06-04 20:00:00,2025-06-08 05:00:00,81.0,3.4
+TASK_0206,Lecture Notes Review,Low,Pending,None,10,3.3,3.5,9.8,2025-06-03 17:00:00,2025-06-06 23:00:00,78.0,5.6
+TASK_0207,Analysis,Medium,Completed,Internal,6,3.4,3.7,9.7,2025-06-02 15:00:00,2025-06-05 17:00:00,74.0,4.5
+TASK_0208,Presentation,High,In Progress,Internal,9,4.6,0.9,2.9,2025-06-02 13:00:00,2025-06-03 21:00:00,32.0,4.7
+TASK_0209,Review,High,Pending,External,10,1.7,1.8,8.3,2025-06-02 23:00:00,2025-06-06 04:00:00,77.0,5.0
+TASK_0210,Training,High,Pending,External,4,5.7,3.2,2.8,2025-06-03 06:00:00,2025-06-07 06:00:00,96.0,3.3
+TASK_0211,Analysis,Medium,Pending,None,7,1.8,0.4,2.9,2025-06-04 02:00:00,2025-06-07 06:00:00,76.0,3.3
+TASK_0212,Training,Medium,Pending,Internal,6,2.8,1.8,7.1,2025-06-04 08:00:00,2025-06-08 15:00:00,103.0,3.7
+TASK_0213,Presentation,Low,Pending,None,2,4.3,2.7,4.6,2025-06-03 06:00:00,2025-06-05 09:00:00,51.0,2.8
+TASK_0214,Testing,High,Pending,None,10,6.5,5.0,9.4,2025-06-03 02:00:00,2025-06-06 07:00:00,77.0,6.2
+TASK_0215,Presentation,High,Completed,None,8,6.0,2.4,1.8,2025-06-05 10:00:00,2025-06-09 00:00:00,86.0,4.3
+TASK_0216,Customer Support,Medium,Completed,Internal,7,5.3,4.1,5.6,2025-06-03 11:00:00,2025-06-05 22:00:00,59.0,4.7
+TASK_0217,Meeting,High,Pending,Internal,7,1.7,2.2,9.3,2025-06-01 07:00:00,2025-06-05 09:00:00,98.0,4.2
+TASK_0218,Research,High,In Progress,Internal,8,4.6,4.0,9.1,2025-06-04 13:00:00,2025-06-05 09:00:00,20.0,5.9
+TASK_0219,Testing,Medium,Completed,External,1,1.2,3.0,2.4,2025-06-03 19:00:00,2025-06-04 07:00:00,12.0,3.1
+TASK_0220,Bug Fixing,High,Pending,None,1,3.3,4.4,4.3,2025-06-04 02:00:00,2025-06-08 18:00:00,112.0,2.5
+TASK_0221,Research,High,Pending,None,8,3.6,2.1,6.6,2025-06-03 23:00:00,2025-06-08 03:00:00,100.0,4.4
+TASK_0222,Meeting,Medium,Completed,None,4,0.8,3.0,2.4,2025-06-01 08:00:00,2025-06-02 21:00:00,37.0,3.0
+TASK_0223,Report Writing,Medium,Pending,None,5,2.6,3.2,9.7,2025-06-04 17:00:00,2025-06-06 17:00:00,48.0,4.1
+TASK_0224,Bug Fixing,Low,In Progress,None,8,7.7,2.1,9.2,2025-06-01 01:00:00,2025-06-04 20:00:00,91.0,5.2
+TASK_0225,Documentation,Medium,In Progress,None,5,7.7,0.7,2.5,2025-06-04 07:00:00,2025-06-04 19:00:00,12.0,4.6
+TASK_0226,Analysis,Low,Pending,None,10,3.1,0.5,2.1,2025-06-04 22:00:00,2025-06-05 08:00:00,10.0,5.8
+TASK_0227,Testing,Medium,Pending,Internal,4,0.8,0.1,1.8,2025-06-03 21:00:00,2025-06-04 16:00:00,19.0,2.8
+TASK_0228,Lecture Notes Review,High,Completed,None,6,1.8,4.4,9.2,2025-06-05 20:00:00,2025-06-06 18:00:00,22.0,4.9
+TASK_0229,Lecture Notes Review,Medium,Pending,Internal,5,3.4,1.2,2.7,2025-06-04 12:00:00,2025-06-08 22:00:00,106.0,3.0
+TASK_0230,Presentation,Medium,Pending,External,7,7.6,1.1,4.7,2025-06-04 17:00:00,2025-06-05 02:00:00,9.0,5.9
+TASK_0231,Brainstorming,Medium,Completed,None,10,1.6,3.7,5.0,2025-06-03 10:00:00,2025-06-08 07:00:00,117.0,4.9
+TASK_0232,Planning,Low,In Progress,None,7,6.2,1.6,6.4,2025-06-01 18:00:00,2025-06-06 16:00:00,118.0,4.3
+TASK_0233,Meeting,High,Pending,None,4,1.3,2.5,1.6,2025-06-02 03:00:00,2025-06-02 17:00:00,14.0,3.6
+TASK_0234,Lecture Notes Review,Low,Completed,None,5,7.9,0.8,3.0,2025-06-03 23:00:00,2025-06-07 06:00:00,79.0,3.5
+TASK_0235,Exam Preparation,Low,Pending,External,3,3.4,4.8,9.4,2025-06-01 13:00:00,2025-06-04 05:00:00,64.0,3.8
+TASK_0236,Development,Medium,Completed,None,4,6.3,4.3,9.2,2025-06-01 23:00:00,2025-06-03 20:00:00,45.0,4.4
+TASK_0237,Development,High,Completed,None,4,3.1,4.3,8.0,2025-06-05 15:00:00,2025-06-06 07:00:00,16.0,4.6
+TASK_0238,Customer Support,High,In Progress,None,3,5.2,2.0,1.2,2025-06-02 19:00:00,2025-06-03 10:00:00,15.0,3.6
+TASK_0239,Customer Support,Low,In Progress,Internal,10,1.9,3.8,3.9,2025-06-05 04:00:00,2025-06-08 20:00:00,88.0,4.9
+TASK_0240,Analysis,Medium,Completed,External,5,1.6,0.7,6.7,2025-06-03 07:00:00,2025-06-06 12:00:00,77.0,3.1
+TASK_0241,Training,Medium,Pending,External,5,7.5,0.0,3.5,2025-06-04 17:00:00,2025-06-05 16:00:00,23.0,3.9
+TASK_0242,Lecture Notes Review,Medium,Completed,None,7,7.4,0.1,9.2,2025-06-04 22:00:00,2025-06-07 03:00:00,53.0,4.7
+TASK_0243,Lecture Notes Review,Medium,Pending,External,4,7.2,2.9,6.7,2025-06-05 23:00:00,2025-06-07 14:00:00,39.0,4.1
+TASK_0244,Analysis,Medium,Pending,External,4,5.2,2.3,1.6,2025-06-03 02:00:00,2025-06-07 01:00:00,95.0,3.0
+TASK_0245,Presentation,Medium,Pending,External,9,6.6,2.6,9.2,2025-06-02 07:00:00,2025-06-06 02:00:00,91.0,5.5
+TASK_0246,Meeting,Medium,Completed,Internal,6,1.0,0.0,9.6,2025-06-03 01:00:00,2025-06-06 01:00:00,72.0,3.5
+TASK_0247,Presentation,High,Completed,None,4,3.0,2.1,1.7,2025-06-02 16:00:00,2025-06-04 08:00:00,40.0,2.9
+TASK_0248,Report Writing,Medium,Pending,Internal,2,2.9,3.6,5.8,2025-06-03 17:00:00,2025-06-04 08:00:00,15.0,3.7
+TASK_0249,Brainstorming,Medium,Pending,Internal,6,5.3,2.2,3.7,2025-06-02 00:00:00,2025-06-06 06:00:00,102.0,3.8
+TASK_0250,Research,Medium,Completed,None,2,3.2,3.7,4.5,2025-06-05 19:00:00,2025-06-07 14:00:00,43.0,2.9
+TASK_0251,Review,Medium,In Progress,None,5,1.6,1.2,2.6,2025-06-05 11:00:00,2025-06-07 20:00:00,57.0,2.9
+TASK_0252,Deployment,High,Pending,Internal,6,5.0,4.1,6.2,2025-06-03 12:00:00,2025-06-03 17:00:00,5.0,7.3
+TASK_0253,Research,Medium,In Progress,None,4,6.6,2.9,9.6,2025-06-03 17:00:00,2025-06-05 22:00:00,53.0,4.2
+TASK_0254,Presentation,Medium,In Progress,None,3,3.4,1.1,5.5,2025-06-02 17:00:00,2025-06-04 13:00:00,44.0,2.9
+TASK_0255,Analysis,High,Completed,Internal,7,1.5,1.2,1.7,2025-06-03 16:00:00,2025-06-05 16:00:00,48.0,3.4
+TASK_0256,Lecture Notes Review,Medium,Pending,None,2,2.0,3.1,6.6,2025-06-02 11:00:00,2025-06-06 21:00:00,106.0,2.6
+TASK_0257,Analysis,Medium,In Progress,None,6,2.3,4.1,4.1,2025-06-04 03:00:00,2025-06-08 16:00:00,109.0,3.8
+TASK_0258,Bug Fixing,High,In Progress,None,4,2.7,2.1,8.7,2025-06-01 08:00:00,2025-06-01 20:00:00,12.0,4.6
+TASK_0259,Case Study,Medium,Completed,None,6,5.3,1.3,4.9,2025-06-02 11:00:00,2025-06-05 04:00:00,65.0,3.8
+TASK_0260,Bug Fixing,Medium,In Progress,None,4,5.0,4.3,2.7,2025-06-05 08:00:00,2025-06-09 01:00:00,89.0,3.4
+TASK_0261,Planning,High,In Progress,None,4,5.7,3.3,2.7,2025-06-04 19:00:00,2025-06-06 21:00:00,50.0,3.5
+TASK_0262,Analysis,Low,Pending,External,4,3.2,2.2,7.9,2025-06-02 13:00:00,2025-06-02 21:00:00,8.0,5.2
+TASK_0263,Lecture Notes Review,Low,Completed,None,9,6.7,2.4,3.4,2025-06-02 08:00:00,2025-06-05 15:00:00,79.0,4.9
+TASK_0264,Customer Support,Medium,In Progress,External,7,2.0,1.0,7.9,2025-06-02 17:00:00,2025-06-02 21:00:00,4.0,7.4
+TASK_0265,Review,High,Pending,External,3,4.0,3.1,2.9,2025-06-03 12:00:00,2025-06-05 11:00:00,47.0,3.0
+TASK_0266,Meeting,Low,In Progress,None,3,6.5,1.8,3.9,2025-06-02 21:00:00,2025-06-03 22:00:00,25.0,3.5
+TASK_0267,Review,Low,Pending,External,6,1.9,5.0,5.2,2025-06-04 13:00:00,2025-06-06 06:00:00,41.0,4.3
+TASK_0268,Meeting,Low,Pending,None,6,1.3,2.4,9.5,2025-06-04 16:00:00,2025-06-09 14:00:00,118.0,3.9
+TASK_0269,Case Study,Low,Completed,None,4,7.1,2.4,9.4,2025-06-03 12:00:00,2025-06-04 10:00:00,22.0,4.6
+TASK_0270,Assignment,Low,In Progress,None,9,3.1,2.8,2.9,2025-06-01 17:00:00,2025-06-05 04:00:00,83.0,4.5
+TASK_0271,Lecture Notes Review,Medium,Completed,Internal,4,5.6,4.6,4.2,2025-06-03 21:00:00,2025-06-05 07:00:00,34.0,4.0
+TASK_0272,Presentation,Medium,Pending,None,9,0.7,4.0,2.3,2025-06-04 09:00:00,2025-06-09 07:00:00,118.0,4.3
+TASK_0273,Research,Low,Completed,None,4,5.7,2.3,5.6,2025-06-05 19:00:00,2025-06-08 17:00:00,70.0,3.5
+TASK_0274,Testing,Medium,Pending,External,2,2.9,3.6,5.1,2025-06-04 07:00:00,2025-06-08 01:00:00,90.0,2.7
+TASK_0275,Analysis,Low,Pending,None,2,0.9,2.9,9.1,2025-06-01 14:00:00,2025-06-03 11:00:00,45.0,2.9
+TASK_0276,Brainstorming,Medium,Completed,None,5,5.1,2.5,9.4,2025-06-02 23:00:00,2025-06-06 12:00:00,85.0,4.1
+TASK_0277,Meeting,Medium,Completed,None,4,2.3,1.0,4.5,2025-06-03 23:00:00,2025-06-05 04:00:00,29.0,3.1
+TASK_0278,Lecture Notes Review,High,In Progress,External,7,3.4,2.3,5.4,2025-06-01 12:00:00,2025-06-02 04:00:00,16.0,5.0
+TASK_0279,Exam Preparation,Low,Pending,External,5,1.1,1.2,9.1,2025-06-05 22:00:00,2025-06-08 11:00:00,61.0,3.4
+TASK_0280,Training,Medium,Completed,None,6,1.6,4.6,8.3,2025-06-02 18:00:00,2025-06-03 15:00:00,21.0,4.9
+TASK_0281,Case Study,Low,In Progress,None,10,2.7,1.7,1.0,2025-06-03 11:00:00,2025-06-06 09:00:00,70.0,4.4
+TASK_0282,Deployment,High,Completed,None,4,1.2,4.8,3.9,2025-06-03 08:00:00,2025-06-07 02:00:00,90.0,3.2
+TASK_0283,Deployment,High,Completed,External,2,7.3,2.7,4.8,2025-06-03 22:00:00,2025-06-04 04:00:00,6.0,5.5
+TASK_0284,Group Project,Medium,Pending,None,10,0.5,3.2,3.1,2025-06-01 16:00:00,2025-06-04 02:00:00,58.0,4.6
+TASK_0285,Training,Low,Pending,None,9,4.1,2.7,2.8,2025-06-03 01:00:00,2025-06-06 21:00:00,92.0,4.5
+TASK_0286,Research,High,In Progress,None,10,1.4,0.6,1.3,2025-06-02 07:00:00,2025-06-06 05:00:00,94.0,4.0
+TASK_0287,Planning,Low,Pending,None,7,2.8,1.9,6.8,2025-06-01 21:00:00,2025-06-04 10:00:00,61.0,4.1
+TASK_0288,Assignment,Low,Pending,None,4,7.4,0.5,3.4,2025-06-03 06:00:00,2025-06-07 21:00:00,111.0,3.1
+TASK_0289,Meeting,Medium,Completed,None,3,1.7,3.1,1.5,2025-06-05 18:00:00,2025-06-08 12:00:00,66.0,2.5
+TASK_0290,Design,Low,In Progress,None,10,7.7,2.2,3.1,2025-06-03 08:00:00,2025-06-07 06:00:00,94.0,5.2
+TASK_0291,Meeting,High,Completed,External,3,2.0,3.9,8.2,2025-06-01 12:00:00,2025-06-03 19:00:00,55.0,3.4
+TASK_0292,Development,High,In Progress,None,9,6.1,1.1,8.7,2025-06-02 22:00:00,2025-06-07 08:00:00,106.0,5.1
+TASK_0293,Lecture Notes Review,Low,In Progress,Internal,5,4.6,0.8,5.3,2025-06-04 14:00:00,2025-06-08 10:00:00,92.0,3.3
+TASK_0294,Training,Medium,Pending,None,3,7.1,2.0,4.7,2025-06-03 13:00:00,2025-06-04 16:00:00,27.0,3.6
+TASK_0295,Review,High,Pending,External,5,4.7,4.6,9.8,2025-06-03 05:00:00,2025-06-06 08:00:00,75.0,4.5
+TASK_0296,Analysis,High,Pending,External,2,4.5,3.6,2.8,2025-06-02 04:00:00,2025-06-02 16:00:00,12.0,3.9
+TASK_0297,Brainstorming,Medium,Pending,None,4,2.0,2.1,2.9,2025-06-01 21:00:00,2025-06-06 14:00:00,113.0,2.7
+TASK_0298,Brainstorming,High,Completed,None,10,1.7,2.6,3.6,2025-06-03 16:00:00,2025-06-05 08:00:00,40.0,4.9
+TASK_0299,Exam Preparation,High,Pending,External,2,7.4,0.4,2.6,2025-06-02 04:00:00,2025-06-06 05:00:00,97.0,2.4
+TASK_0300,Case Study,High,In Progress,None,2,3.0,4.9,4.4,2025-06-02 23:00:00,2025-06-06 13:00:00,86.0,2.9
+TASK_0301,Assignment,Low,Pending,Internal,8,3.3,3.3,9.2,2025-06-01 04:00:00,2025-06-03 12:00:00,56.0,5.0
+TASK_0302,Deployment,Medium,Pending,None,1,6.2,1.4,6.5,2025-06-02 10:00:00,2025-06-05 21:00:00,83.0,2.6
+TASK_0303,Analysis,High,In Progress,Internal,7,3.0,2.9,4.7,2025-06-05 22:00:00,2025-06-07 01:00:00,27.0,4.5
+TASK_0304,Customer Support,Low,Pending,None,5,7.6,0.5,9.4,2025-06-04 01:00:00,2025-06-08 16:00:00,111.0,4.0
+TASK_0305,Development,High,Pending,External,8,6.0,4.8,1.4,2025-06-04 10:00:00,2025-06-05 10:00:00,24.0,5.3
+TASK_0306,Brainstorming,Low,Pending,External,1,5.0,0.9,2.9,2025-06-05 04:00:00,2025-06-09 11:00:00,103.0,1.9
+TASK_0307,Case Study,Low,Pending,External,7,7.1,3.2,6.1,2025-06-03 22:00:00,2025-06-05 17:00:00,43.0,4.9
+TASK_0308,Assignment,Medium,Completed,None,5,0.9,1.2,6.5,2025-06-02 21:00:00,2025-06-07 07:00:00,106.0,3.0
+TASK_0309,Analysis,Low,Pending,External,4,2.4,3.6,1.4,2025-06-02 10:00:00,2025-06-07 04:00:00,114.0,2.8
+TASK_0310,Meeting,High,Pending,None,7,4.0,3.9,4.6,2025-06-02 20:00:00,2025-06-05 13:00:00,65.0,4.4
+TASK_0311,Presentation,High,In Progress,External,10,2.2,3.4,6.8,2025-06-01 12:00:00,2025-06-04 13:00:00,73.0,5.2
+TASK_0312,Assignment,High,Pending,None,2,6.1,3.1,7.3,2025-06-01 09:00:00,2025-06-04 09:00:00,72.0,3.3
+TASK_0313,Meeting,Medium,Completed,Internal,1,7.4,4.5,6.7,2025-06-03 17:00:00,2025-06-04 10:00:00,17.0,4.1
+TASK_0314,Analysis,Low,In Progress,None,1,3.7,0.4,3.9,2025-06-03 21:00:00,2025-06-08 13:00:00,112.0,1.8
+TASK_0315,Bug Fixing,Medium,In Progress,Internal,1,3.1,1.7,1.8,2025-06-03 23:00:00,2025-06-05 20:00:00,45.0,1.9
+TASK_0316,Documentation,Medium,In Progress,Internal,5,7.7,1.2,4.8,2025-06-05 03:00:00,2025-06-07 08:00:00,53.0,3.9
+TASK_0317,Analysis,Medium,Pending,Internal,10,3.8,4.9,2.2,2025-06-02 00:00:00,2025-06-04 16:00:00,64.0,5.2
+TASK_0318,Research,Low,In Progress,None,7,4.2,1.9,9.5,2025-06-02 19:00:00,2025-06-03 02:00:00,7.0,6.6
+TASK_0319,Case Study,Medium,Pending,None,2,3.1,3.7,5.3,2025-06-03 11:00:00,2025-06-06 14:00:00,75.0,2.8
+TASK_0320,Bug Fixing,Medium,Completed,Internal,10,7.3,3.4,3.9,2025-06-02 22:00:00,2025-06-06 17:00:00,91.0,5.5
+TASK_0321,Design,High,Pending,None,8,4.8,1.1,7.9,2025-06-02 15:00:00,2025-06-05 21:00:00,78.0,4.6
+TASK_0322,Planning,High,In Progress,None,4,6.2,1.2,5.5,2025-06-01 06:00:00,2025-06-02 02:00:00,20.0,4.0
+TASK_0323,Documentation,Medium,In Progress,External,3,6.6,1.4,3.8,2025-06-02 21:00:00,2025-06-07 18:00:00,117.0,2.9
+TASK_0324,Planning,Medium,Pending,External,10,3.1,2.1,8.3,2025-06-01 22:00:00,2025-06-05 14:00:00,88.0,5.2
+TASK_0325,Brainstorming,High,Pending,None,8,3.8,1.2,8.8,2025-06-04 10:00:00,2025-06-06 22:00:00,60.0,4.6
+TASK_0326,Research,Low,Completed,External,2,6.9,0.1,7.1,2025-06-02 21:00:00,2025-06-06 18:00:00,93.0,2.7
+TASK_0327,Meeting,High,Completed,Internal,3,3.2,4.4,1.4,2025-06-04 13:00:00,2025-06-09 03:00:00,110.0,2.8
+TASK_0328,Customer Support,High,Pending,None,3,6.5,4.8,6.1,2025-06-01 12:00:00,2025-06-03 15:00:00,51.0,3.9
+TASK_0329,Report Writing,Medium,Completed,Internal,10,7.6,1.7,7.9,2025-06-01 20:00:00,2025-06-03 19:00:00,47.0,5.8
+TASK_0330,Lecture Notes Review,Medium,Completed,None,1,5.2,1.7,2.2,2025-06-01 00:00:00,2025-06-03 00:00:00,48.0,2.2
+TASK_0331,Testing,Low,Completed,None,6,6.1,0.0,3.1,2025-06-01 18:00:00,2025-06-05 16:00:00,94.0,3.4
+TASK_0332,Documentation,Medium,Pending,None,2,6.5,3.4,8.9,2025-06-03 11:00:00,2025-06-06 22:00:00,83.0,3.5
+TASK_0333,Analysis,Low,Completed,None,1,6.8,4.1,1.2,2025-06-02 08:00:00,2025-06-06 05:00:00,93.0,2.6
+TASK_0334,Bug Fixing,High,Pending,Internal,2,3.5,0.7,7.8,2025-06-01 03:00:00,2025-06-02 15:00:00,36.0,2.8
+TASK_0335,Group Project,Low,Completed,None,6,0.9,0.8,5.3,2025-06-05 09:00:00,2025-06-06 19:00:00,34.0,3.5
+TASK_0336,Testing,Medium,In Progress,None,4,3.5,4.0,5.0,2025-06-01 02:00:00,2025-06-05 21:00:00,115.0,3.4
+TASK_0337,Review,High,Pending,None,6,5.6,3.1,1.1,2025-06-04 18:00:00,2025-06-06 20:00:00,50.0,3.9
+TASK_0338,Group Project,High,Completed,None,9,3.9,0.2,8.4,2025-06-03 03:00:00,2025-06-03 12:00:00,9.0,6.3
+TASK_0339,Presentation,Low,Pending,None,10,6.1,3.1,4.2,2025-06-05 08:00:00,2025-06-09 23:00:00,111.0,5.3
+TASK_0340,Meeting,Low,Completed,None,10,3.2,1.5,5.9,2025-06-05 02:00:00,2025-06-08 05:00:00,75.0,4.9
+TASK_0341,Research,Low,Completed,None,8,5.3,1.8,7.1,2025-06-02 03:00:00,2025-06-05 05:00:00,74.0,4.7
+TASK_0342,Case Study,Medium,In Progress,Internal,1,1.9,3.8,7.3,2025-06-03 21:00:00,2025-06-05 10:00:00,37.0,2.8
+TASK_0343,Lecture Notes Review,Low,Pending,None,8,6.1,4.1,9.6,2025-06-03 21:00:00,2025-06-08 12:00:00,111.0,5.4
+TASK_0344,Case Study,Medium,In Progress,None,9,4.6,2.0,5.8,2025-06-03 06:00:00,2025-06-05 14:00:00,56.0,4.9
+TASK_0345,Exam Preparation,High,Pending,None,6,2.0,4.7,4.6,2025-06-03 08:00:00,2025-06-04 01:00:00,17.0,4.8
+TASK_0346,Training,Low,Pending,External,10,2.7,2.0,9.6,2025-06-05 11:00:00,2025-06-06 06:00:00,19.0,6.0
+TASK_0347,Design,High,Completed,None,5,6.1,3.9,6.8,2025-06-04 14:00:00,2025-06-06 12:00:00,46.0,4.4
+TASK_0348,Planning,High,Pending,None,6,4.1,2.4,3.7,2025-06-05 00:00:00,2025-06-09 23:00:00,119.0,3.6
+TASK_0349,Planning,Low,Pending,None,6,2.1,4.5,2.1,2025-06-01 15:00:00,2025-06-04 19:00:00,76.0,3.7
+TASK_0350,Training,High,Completed,Internal,9,7.8,4.5,8.6,2025-06-01 23:00:00,2025-06-05 04:00:00,77.0,5.9
+TASK_0351,Brainstorming,Medium,Pending,None,4,5.9,0.4,4.3,2025-06-03 20:00:00,2025-06-07 08:00:00,84.0,3.0
+TASK_0352,Presentation,High,Pending,External,2,7.7,4.7,6.9,2025-06-02 16:00:00,2025-06-03 07:00:00,15.0,4.6
+TASK_0353,Documentation,Medium,Completed,None,9,3.7,4.1,5.2,2025-06-05 09:00:00,2025-06-08 10:00:00,73.0,5.0
+TASK_0354,Deployment,Medium,Pending,None,2,4.1,4.0,2.8,2025-06-04 04:00:00,2025-06-05 02:00:00,22.0,3.3
+TASK_0355,Design,Medium,Completed,External,10,7.2,1.0,6.4,2025-06-02 22:00:00,2025-06-07 12:00:00,110.0,5.2
+TASK_0356,Report Writing,High,Completed,None,9,4.4,4.0,1.5,2025-06-04 03:00:00,2025-06-05 23:00:00,44.0,4.9
+TASK_0357,Development,High,Completed,Internal,2,5.8,4.3,4.7,2025-06-03 20:00:00,2025-06-06 04:00:00,56.0,3.3
+TASK_0358,Meeting,Medium,In Progress,Internal,8,2.4,1.4,5.9,2025-06-05 04:00:00,2025-06-06 12:00:00,32.0,4.5
+TASK_0359,Research,High,Pending,Internal,9,3.9,4.8,4.9,2025-06-02 06:00:00,2025-06-05 07:00:00,73.0,5.2
+TASK_0360,Assignment,Low,Pending,None,10,1.4,0.2,7.7,2025-06-04 19:00:00,2025-06-07 09:00:00,62.0,4.7
+TASK_0361,Exam Preparation,Low,Completed,External,9,2.0,0.7,8.5,2025-06-04 19:00:00,2025-06-08 15:00:00,92.0,4.5
+TASK_0362,Exam Preparation,Low,Completed,None,10,0.5,2.7,7.9,2025-06-02 05:00:00,2025-06-05 00:00:00,67.0,5.0
+TASK_0363,Development,Medium,In Progress,Internal,9,0.8,2.9,1.3,2025-06-01 17:00:00,2025-06-02 20:00:00,27.0,4.5
+TASK_0364,Testing,Low,Pending,External,2,7.8,3.2,2.7,2025-06-02 19:00:00,2025-06-06 15:00:00,92.0,3.0
+TASK_0365,Review,High,Pending,Internal,4,2.3,0.1,5.8,2025-06-02 02:00:00,2025-06-02 21:00:00,19.0,3.4
+TASK_0366,Deployment,Low,Pending,None,7,5.5,4.8,9.4,2025-06-05 02:00:00,2025-06-07 09:00:00,55.0,5.3
+TASK_0367,Group Project,Medium,Completed,None,2,6.8,0.2,8.5,2025-06-02 01:00:00,2025-06-05 12:00:00,83.0,2.9
+TASK_0368,Presentation,Low,In Progress,None,1,4.6,0.7,8.6,2025-06-05 06:00:00,2025-06-05 15:00:00,9.0,4.1
+TASK_0369,Design,High,Completed,External,3,1.6,0.1,3.7,2025-06-05 16:00:00,2025-06-07 08:00:00,40.0,2.3
+TASK_0370,Analysis,High,Completed,None,4,6.0,2.8,4.9,2025-06-05 18:00:00,2025-06-09 10:00:00,88.0,3.5
+TASK_0371,Research,Medium,Pending,None,8,5.0,4.7,5.2,2025-06-03 11:00:00,2025-06-03 18:00:00,7.0,7.1
+TASK_0372,Presentation,High,In Progress,External,6,6.0,3.3,2.4,2025-06-01 17:00:00,2025-06-05 22:00:00,101.0,3.9
+TASK_0373,Lecture Notes Review,Low,In Progress,None,2,6.3,4.1,1.3,2025-06-05 00:00:00,2025-06-08 23:00:00,95.0,2.8
+TASK_0374,Group Project,High,In Progress,None,9,7.8,0.1,9.5,2025-06-04 16:00:00,2025-06-06 09:00:00,41.0,5.4
+TASK_0375,Bug Fixing,Low,Completed,None,2,4.8,2.7,3.2,2025-06-03 07:00:00,2025-06-05 03:00:00,44.0,2.8
+TASK_0376,Documentation,High,Completed,None,5,3.1,2.3,3.2,2025-06-02 06:00:00,2025-06-06 05:00:00,95.0,3.2
+TASK_0377,Training,Low,Completed,None,4,5.4,2.5,1.8,2025-06-05 04:00:00,2025-06-08 16:00:00,84.0,3.1
+TASK_0378,Brainstorming,Medium,Pending,None,7,1.0,0.4,9.4,2025-06-03 10:00:00,2025-06-04 03:00:00,17.0,4.7
+TASK_0379,Training,High,Pending,None,8,7.2,3.4,6.2,2025-06-01 01:00:00,2025-06-04 03:00:00,74.0,5.1
+TASK_0380,Development,Low,Completed,None,5,1.4,2.5,7.0,2025-06-05 00:00:00,2025-06-08 17:00:00,89.0,3.4
+TASK_0381,Assignment,Low,Pending,External,10,3.0,3.8,9.2,2025-06-02 14:00:00,2025-06-04 20:00:00,54.0,5.7
+TASK_0382,Customer Support,Low,Pending,None,5,6.6,2.4,4.1,2025-06-03 12:00:00,2025-06-06 08:00:00,68.0,3.8
+TASK_0383,Exam Preparation,Medium,Pending,None,2,5.0,0.7,6.6,2025-06-05 10:00:00,2025-06-09 10:00:00,96.0,2.6
+TASK_0384,Assignment,Medium,In Progress,Internal,8,3.5,3.2,1.3,2025-06-05 10:00:00,2025-06-07 17:00:00,55.0,4.2
+TASK_0385,Meeting,Low,Pending,None,2,4.1,0.9,2.7,2025-06-03 14:00:00,2025-06-07 16:00:00,98.0,2.1
+TASK_0386,Meeting,Medium,In Progress,None,10,6.9,4.4,8.5,2025-06-04 23:00:00,2025-06-06 08:00:00,33.0,6.4
+TASK_0387,Design,Low,Completed,External,6,3.1,3.1,7.9,2025-06-01 17:00:00,2025-06-04 05:00:00,60.0,4.2
+TASK_0388,Planning,High,Pending,Internal,8,7.0,0.8,4.2,2025-06-01 16:00:00,2025-06-05 02:00:00,82.0,4.4
+TASK_0389,Lecture Notes Review,Low,Pending,External,6,1.2,4.8,4.4,2025-06-05 01:00:00,2025-06-08 14:00:00,85.0,3.8
+TASK_0390,Research,Low,Pending,External,4,6.3,2.6,5.8,2025-06-02 14:00:00,2025-06-06 20:00:00,102.0,3.6
+TASK_0391,Group Project,Low,Completed,Internal,4,6.9,0.4,1.0,2025-06-03 22:00:00,2025-06-08 19:00:00,117.0,2.7
+TASK_0392,Assignment,Medium,Pending,None,6,1.9,3.1,3.2,2025-06-05 09:00:00,2025-06-06 18:00:00,33.0,3.8
+TASK_0393,Meeting,High,Pending,Internal,4,3.7,1.3,2.9,2025-06-03 05:00:00,2025-06-07 10:00:00,101.0,2.7
+TASK_0394,Lecture Notes Review,Medium,Pending,None,8,1.7,4.0,3.3,2025-06-05 20:00:00,2025-06-07 17:00:00,45.0,4.4
+TASK_0395,Testing,Low,Completed,Internal,9,5.8,4.1,8.3,2025-06-05 02:00:00,2025-06-05 16:00:00,14.0,6.6
+TASK_0396,Development,High,In Progress,None,1,4.5,4.9,3.5,2025-06-04 21:00:00,2025-06-06 03:00:00,30.0,3.1
+TASK_0397,Analysis,High,Completed,None,4,5.3,2.5,2.7,2025-06-04 03:00:00,2025-06-05 06:00:00,27.0,3.6
+TASK_0398,Exam Preparation,Low,Completed,None,4,2.0,2.3,5.5,2025-06-02 10:00:00,2025-06-06 16:00:00,102.0,3.0
+TASK_0399,Lecture Notes Review,High,Pending,External,2,2.1,3.8,8.8,2025-06-01 10:00:00,2025-06-03 04:00:00,42.0,3.2
+TASK_0400,Training,High,Completed,None,6,0.8,0.7,3.2,2025-06-03 12:00:00,2025-06-06 15:00:00,75.0,3.0
+TASK_0401,Development,Low,Pending,Internal,3,2.9,2.7,1.7,2025-06-02 19:00:00,2025-06-07 17:00:00,118.0,2.4
+TASK_0402,Case Study,High,Completed,Internal,7,4.7,2.7,4.2,2025-06-03 19:00:00,2025-06-04 16:00:00,21.0,4.8
+TASK_0403,Development,High,In Progress,None,5,6.9,0.4,7.7,2025-06-02 00:00:00,2025-06-05 08:00:00,80.0,3.8
+TASK_0404,Design,Medium,Completed,Internal,4,5.5,2.1,6.0,2025-06-02 23:00:00,2025-06-04 23:00:00,48.0,3.6
+TASK_0405,Brainstorming,Low,Pending,External,5,3.8,4.3,8.4,2025-06-02 07:00:00,2025-06-06 02:00:00,91.0,4.2
+TASK_0406,Case Study,Low,Pending,External,8,7.6,4.3,9.6,2025-06-04 11:00:00,2025-06-09 09:00:00,118.0,5.6
+TASK_0407,Presentation,High,Pending,None,3,5.9,0.5,8.1,2025-06-05 17:00:00,2025-06-09 11:00:00,90.0,3.1
+TASK_0408,Development,High,Pending,None,7,7.5,0.5,6.4,2025-06-04 22:00:00,2025-06-05 13:00:00,15.0,5.3
+TASK_0409,Exam Preparation,Medium,Pending,None,6,4.5,1.3,5.4,2025-06-01 03:00:00,2025-06-03 07:00:00,52.0,3.9
+TASK_0410,Lecture Notes Review,Medium,Pending,None,1,2.4,4.4,1.4,2025-06-05 21:00:00,2025-06-09 22:00:00,97.0,2.1
+TASK_0411,Lecture Notes Review,Medium,Pending,Internal,7,0.9,0.6,9.9,2025-06-02 13:00:00,2025-06-03 23:00:00,34.0,4.2
+TASK_0412,Assignment,Medium,In Progress,None,7,5.9,3.6,4.5,2025-06-05 20:00:00,2025-06-09 19:00:00,95.0,4.5
+TASK_0413,Testing,Medium,Completed,Internal,1,1.4,0.5,2.4,2025-06-03 14:00:00,2025-06-04 15:00:00,25.0,1.9
+TASK_0414,Review,Low,In Progress,None,9,2.8,3.1,7.0,2025-06-02 22:00:00,2025-06-04 21:00:00,47.0,5.1
+TASK_0415,Meeting,High,Pending,None,6,4.5,1.8,3.6,2025-06-01 00:00:00,2025-06-04 23:00:00,95.0,3.6
+TASK_0416,Development,Medium,In Progress,External,2,4.7,3.9,6.3,2025-06-01 02:00:00,2025-06-03 21:00:00,67.0,3.2
+TASK_0417,Documentation,High,Pending,Internal,5,5.0,1.2,6.3,2025-06-05 04:00:00,2025-06-08 12:00:00,80.0,3.6
+TASK_0418,Development,Low,Completed,None,4,1.7,3.2,5.0,2025-06-04 13:00:00,2025-06-05 17:00:00,28.0,3.5
+TASK_0419,Review,Low,Pending,None,7,3.3,1.2,8.5,2025-06-03 13:00:00,2025-06-08 04:00:00,111.0,4.1
+TASK_0420,Planning,Low,Completed,None,8,5.1,3.6,3.4,2025-06-03 15:00:00,2025-06-05 21:00:00,54.0,4.7
+TASK_0421,Presentation,Medium,Completed,None,1,7.8,4.4,5.0,2025-06-01 16:00:00,2025-06-06 09:00:00,113.0,3.1
+TASK_0422,Documentation,High,Completed,None,5,6.0,0.6,5.8,2025-06-04 05:00:00,2025-06-04 15:00:00,10.0,5.0
+TASK_0423,Training,Low,In Progress,None,3,7.4,4.3,7.0,2025-06-05 08:00:00,2025-06-10 00:00:00,112.0,3.8
+TASK_0424,Meeting,High,Completed,None,1,6.2,3.0,8.1,2025-06-03 13:00:00,2025-06-03 22:00:00,9.0,4.7
+TASK_0425,Development,Medium,Completed,External,3,4.9,0.6,4.6,2025-06-02 10:00:00,2025-06-03 13:00:00,27.0,3.1
+TASK_0426,Group Project,High,In Progress,None,6,1.9,2.1,6.8,2025-06-01 12:00:00,2025-06-02 10:00:00,22.0,4.3
+TASK_0427,Review,Low,In Progress,None,7,5.5,0.8,2.4,2025-06-02 10:00:00,2025-06-06 00:00:00,86.0,3.7
+TASK_0428,Lecture Notes Review,High,In Progress,None,8,5.2,3.5,9.4,2025-06-02 18:00:00,2025-06-07 01:00:00,103.0,5.2
+TASK_0429,Lecture Notes Review,High,In Progress,External,4,5.0,3.8,4.4,2025-06-01 01:00:00,2025-06-05 23:00:00,118.0,3.5
+TASK_0430,Planning,Low,In Progress,Internal,3,4.2,0.5,7.6,2025-06-03 07:00:00,2025-06-03 19:00:00,12.0,4.1
+TASK_0431,Brainstorming,Low,In Progress,None,5,4.5,2.5,1.2,2025-06-05 14:00:00,2025-06-10 09:00:00,115.0,3.2
+TASK_0432,Presentation,High,Pending,External,9,3.0,4.1,2.8,2025-06-04 04:00:00,2025-06-05 19:00:00,39.0,4.9
+TASK_0433,Exam Preparation,High,Pending,None,6,4.4,4.7,5.4,2025-06-03 02:00:00,2025-06-07 11:00:00,105.0,4.3
+TASK_0434,Bug Fixing,Low,Pending,None,9,2.0,2.6,8.9,2025-06-03 05:00:00,2025-06-05 00:00:00,43.0,5.1
+TASK_0435,Analysis,High,Pending,None,6,6.5,4.8,5.7,2025-06-01 15:00:00,2025-06-05 15:00:00,96.0,4.6
+TASK_0436,Meeting,High,Pending,None,2,1.9,2.7,9.4,2025-06-01 17:00:00,2025-06-02 20:00:00,27.0,3.3
+TASK_0437,Meeting,High,In Progress,External,5,1.1,2.0,5.4,2025-06-01 06:00:00,2025-06-03 09:00:00,51.0,3.3
+TASK_0438,Training,High,Pending,Internal,9,3.8,4.2,5.4,2025-06-02 20:00:00,2025-06-05 14:00:00,66.0,5.1
+TASK_0439,Report Writing,High,Completed,None,8,5.4,2.5,2.1,2025-06-02 11:00:00,2025-06-05 11:00:00,72.0,4.3
+TASK_0440,Development,Medium,Pending,External,7,3.8,2.4,8.2,2025-06-02 16:00:00,2025-06-05 00:00:00,56.0,4.5
+TASK_0441,Exam Preparation,Medium,Pending,None,1,2.6,2.5,3.2,2025-06-04 21:00:00,2025-06-07 06:00:00,57.0,2.1
+TASK_0442,Analysis,Medium,Completed,None,4,4.7,4.2,9.1,2025-06-02 17:00:00,2025-06-04 14:00:00,45.0,4.2
+TASK_0443,Meeting,High,In Progress,None,7,3.1,4.2,9.2,2025-06-05 08:00:00,2025-06-07 08:00:00,48.0,4.9
+TASK_0444,Meeting,High,Pending,None,7,7.5,2.0,9.5,2025-06-01 06:00:00,2025-06-05 03:00:00,93.0,4.9
+TASK_0445,Research,Low,Completed,None,6,7.4,1.7,5.7,2025-06-01 14:00:00,2025-06-02 07:00:00,17.0,5.0
+TASK_0446,Documentation,High,Completed,None,8,4.3,2.5,7.1,2025-06-03 11:00:00,2025-06-07 21:00:00,106.0,4.6
+TASK_0447,Report Writing,High,Pending,None,6,3.0,2.9,8.0,2025-06-02 15:00:00,2025-06-03 23:00:00,32.0,4.4
+TASK_0448,Exam Preparation,Medium,Pending,None,10,6.0,1.2,2.2,2025-06-04 10:00:00,2025-06-09 09:00:00,119.0,4.7
+TASK_0449,Group Project,Medium,Completed,External,3,0.8,4.0,6.4,2025-06-05 10:00:00,2025-06-05 19:00:00,9.0,4.6
+TASK_0450,Exam Preparation,Medium,In Progress,None,4,4.1,2.4,1.3,2025-06-02 12:00:00,2025-06-02 22:00:00,10.0,4.3
+TASK_0451,Case Study,Low,In Progress,Internal,3,3.0,1.7,5.5,2025-06-03 17:00:00,2025-06-05 09:00:00,40.0,3.0
+TASK_0452,Planning,Low,Completed,None,1,7.4,0.5,2.4,2025-06-05 09:00:00,2025-06-07 17:00:00,56.0,2.2
+TASK_0453,Training,Low,Pending,External,10,0.6,1.2,2.6,2025-06-05 15:00:00,2025-06-06 12:00:00,21.0,4.8
+TASK_0454,Bug Fixing,Low,In Progress,Internal,5,4.6,4.7,4.3,2025-06-03 06:00:00,2025-06-07 00:00:00,90.0,3.9
+TASK_0455,Analysis,Medium,Pending,External,1,6.1,1.5,4.9,2025-06-04 04:00:00,2025-06-08 19:00:00,111.0,2.3
+TASK_0456,Brainstorming,Medium,Completed,None,1,4.1,0.8,6.6,2025-06-05 07:00:00,2025-06-07 00:00:00,41.0,2.4
+TASK_0457,Research,Low,In Progress,External,2,1.1,2.3,1.7,2025-06-05 08:00:00,2025-06-07 22:00:00,62.0,2.0
+TASK_0458,Documentation,High,In Progress,None,4,7.8,1.5,5.5,2025-06-05 10:00:00,2025-06-05 14:00:00,4.0,7.1
+TASK_0459,Planning,Low,Pending,None,6,4.4,0.2,2.6,2025-06-05 10:00:00,2025-06-08 09:00:00,71.0,3.3
+TASK_0460,Training,High,Pending,None,8,5.1,1.6,6.2,2025-06-05 22:00:00,2025-06-10 20:00:00,118.0,4.5
+TASK_0461,Customer Support,High,In Progress,None,3,2.3,2.7,6.7,2025-06-04 22:00:00,2025-06-06 21:00:00,47.0,3.1
+TASK_0462,Testing,Low,Completed,None,1,4.1,2.8,6.0,2025-06-04 07:00:00,2025-06-06 09:00:00,50.0,2.6
+TASK_0463,Review,Medium,In Progress,Internal,3,3.7,1.8,7.6,2025-06-05 09:00:00,2025-06-06 23:00:00,38.0,3.3
+TASK_0464,Assignment,Low,Pending,External,3,1.1,2.2,4.0,2025-06-03 07:00:00,2025-06-07 01:00:00,90.0,2.4
+TASK_0465,Bug Fixing,Medium,Completed,None,5,1.3,4.8,7.9,2025-06-02 19:00:00,2025-06-06 17:00:00,94.0,3.9
+TASK_0466,Group Project,Medium,Pending,Internal,4,6.8,1.9,4.9,2025-06-03 08:00:00,2025-06-05 23:00:00,63.0,3.5
+TASK_0467,Report Writing,Low,Completed,None,4,2.3,1.3,5.4,2025-06-01 05:00:00,2025-06-05 02:00:00,93.0,2.8
+TASK_0468,Review,Medium,Pending,Internal,9,2.0,1.2,6.8,2025-06-04 19:00:00,2025-06-07 02:00:00,55.0,4.6
+TASK_0469,Assignment,Low,In Progress,None,7,4.3,2.3,1.2,2025-06-02 07:00:00,2025-06-02 18:00:00,11.0,5.1
+TASK_0470,Review,Low,Pending,None,4,6.3,3.8,6.9,2025-06-05 11:00:00,2025-06-10 01:00:00,110.0,3.9
+TASK_0471,Documentation,Medium,Completed,External,3,1.0,1.0,6.6,2025-06-04 01:00:00,2025-06-07 12:00:00,83.0,2.5
+TASK_0472,Development,Medium,In Progress,External,6,4.8,3.5,3.8,2025-06-05 17:00:00,2025-06-07 13:00:00,44.0,4.2
+TASK_0473,Customer Support,Medium,Pending,External,3,1.4,0.1,1.8,2025-06-01 17:00:00,2025-06-01 23:00:00,6.0,4.3
+TASK_0474,Analysis,Medium,Pending,Internal,6,0.8,2.1,1.8,2025-06-03 19:00:00,2025-06-07 22:00:00,99.0,3.0
+TASK_0475,Brainstorming,High,Pending,External,9,0.9,3.9,9.3,2025-06-04 00:00:00,2025-06-07 00:00:00,72.0,5.1
+TASK_0476,Analysis,Low,Pending,External,6,6.8,1.7,7.2,2025-06-01 06:00:00,2025-06-04 21:00:00,87.0,4.2
+TASK_0477,Lecture Notes Review,Medium,Completed,Internal,4,1.4,2.8,2.1,2025-06-05 17:00:00,2025-06-06 10:00:00,17.0,3.5
+TASK_0478,Review,Medium,In Progress,External,5,0.8,1.0,4.2,2025-06-01 07:00:00,2025-06-05 10:00:00,99.0,2.8
+TASK_0479,Bug Fixing,Medium,Completed,None,6,3.8,3.7,6.3,2025-06-03 15:00:00,2025-06-04 20:00:00,29.0,4.6
+TASK_0480,Brainstorming,High,In Progress,Internal,3,6.8,0.3,8.5,2025-06-05 10:00:00,2025-06-10 04:00:00,114.0,3.2
+TASK_0481,Testing,High,In Progress,None,8,2.5,4.3,1.4,2025-06-01 06:00:00,2025-06-04 07:00:00,73.0,4.3
+TASK_0482,Development,Medium,Pending,External,4,3.7,1.0,3.1,2025-06-02 16:00:00,2025-06-05 05:00:00,61.0,2.8
+TASK_0483,Exam Preparation,High,Pending,Internal,8,0.8,4.4,9.0,2025-06-02 15:00:00,2025-06-06 22:00:00,103.0,4.8
+TASK_0484,Brainstorming,High,Completed,External,10,3.9,1.8,1.1,2025-06-01 02:00:00,2025-06-02 21:00:00,43.0,4.7
+TASK_0485,Group Project,High,Completed,External,10,4.8,3.6,2.8,2025-06-01 16:00:00,2025-06-03 22:00:00,54.0,5.2
+TASK_0486,Analysis,High,Pending,External,3,4.8,1.6,9.6,2025-06-03 17:00:00,2025-06-04 01:00:00,8.0,5.2
+TASK_0487,Customer Support,High,Pending,None,10,3.0,4.5,6.5,2025-06-04 06:00:00,2025-06-07 14:00:00,80.0,5.4
+TASK_0488,Brainstorming,Low,In Progress,Internal,7,2.9,0.6,3.4,2025-06-05 13:00:00,2025-06-07 00:00:00,35.0,3.8
+TASK_0489,Brainstorming,Low,Completed,None,9,1.3,0.9,1.6,2025-06-04 20:00:00,2025-06-08 07:00:00,83.0,3.8
+TASK_0490,Presentation,Medium,Pending,None,4,3.3,2.5,1.3,2025-06-05 17:00:00,2025-06-05 21:00:00,4.0,6.3
+TASK_0491,Lecture Notes Review,Low,In Progress,None,8,1.2,0.4,3.2,2025-06-05 15:00:00,2025-06-08 23:00:00,80.0,3.6
+TASK_0492,Group Project,Medium,Completed,None,3,6.2,1.0,8.9,2025-06-03 03:00:00,2025-06-05 12:00:00,57.0,3.4
+TASK_0493,Training,Low,Pending,None,7,7.7,4.7,4.7,2025-06-01 21:00:00,2025-06-02 11:00:00,14.0,6.0
+TASK_0494,Brainstorming,Medium,Pending,Internal,3,7.8,4.9,7.5,2025-06-01 03:00:00,2025-06-03 11:00:00,56.0,4.2
+TASK_0495,Review,High,In Progress,None,7,7.0,1.9,9.3,2025-06-05 19:00:00,2025-06-06 06:00:00,11.0,6.2
+TASK_0496,Exam Preparation,High,Completed,None,10,5.0,4.6,4.7,2025-06-01 05:00:00,2025-06-02 09:00:00,28.0,5.9
+TASK_0497,Customer Support,Low,Pending,None,10,5.8,2.7,2.7,2025-06-02 13:00:00,2025-06-04 08:00:00,43.0,5.3
+TASK_0498,Training,Medium,In Progress,None,6,2.6,1.3,5.7,2025-06-02 01:00:00,2025-06-03 12:00:00,35.0,3.8
+TASK_0499,Exam Preparation,High,In Progress,External,2,5.2,3.5,9.2,2025-06-01 10:00:00,2025-06-05 05:00:00,91.0,3.4
+TASK_0500,Customer Support,Low,In Progress,None,3,3.9,3.3,8.2,2025-06-04 17:00:00,2025-06-06 00:00:00,31.0,3.8
+TASK_0501,Testing,High,In Progress,None,6,4.1,4.9,1.6,2025-06-01 16:00:00,2025-06-05 01:00:00,81.0,3.9
+TASK_0502,Case Study,Medium,In Progress,None,4,6.2,1.3,7.2,2025-06-04 15:00:00,2025-06-09 07:00:00,112.0,3.4
+TASK_0503,Presentation,Medium,In Progress,None,6,2.6,3.4,6.1,2025-06-04 19:00:00,2025-06-05 01:00:00,6.0,6.4
+TASK_0504,Training,High,In Progress,None,1,2.9,0.3,9.2,2025-06-05 02:00:00,2025-06-09 09:00:00,103.0,2.2
+TASK_0505,Design,Low,In Progress,None,10,7.4,0.6,2.1,2025-06-02 06:00:00,2025-06-06 04:00:00,94.0,4.8
+TASK_0506,Lecture Notes Review,Medium,In Progress,External,1,0.9,0.0,5.8,2025-06-04 04:00:00,2025-06-07 19:00:00,87.0,1.6
+TASK_0507,Assignment,High,Completed,Internal,3,4.1,5.0,8.9,2025-06-05 21:00:00,2025-06-10 15:00:00,114.0,3.7
+TASK_0508,Development,Low,Pending,None,8,7.3,4.0,4.7,2025-06-02 10:00:00,2025-06-05 20:00:00,82.0,5.1
+TASK_0509,Analysis,Medium,Completed,Internal,8,5.1,3.9,5.3,2025-06-01 15:00:00,2025-06-04 08:00:00,65.0,4.9
+TASK_0510,Exam Preparation,High,Completed,None,4,4.6,2.5,1.6,2025-06-04 06:00:00,2025-06-05 12:00:00,30.0,3.4
+TASK_0511,Presentation,Low,Pending,None,6,2.4,1.5,3.5,2025-06-05 10:00:00,2025-06-07 10:00:00,48.0,3.5
+TASK_0512,Assignment,High,In Progress,Internal,8,3.1,0.8,3.9,2025-06-01 17:00:00,2025-06-06 05:00:00,108.0,3.9
+TASK_0513,Review,Medium,In Progress,None,7,6.9,1.4,9.5,2025-06-05 14:00:00,2025-06-09 13:00:00,95.0,4.7
+TASK_0514,Assignment,Medium,Pending,Internal,7,4.7,1.9,3.5,2025-06-05 04:00:00,2025-06-06 08:00:00,28.0,4.4
+TASK_0515,Lecture Notes Review,Medium,Pending,None,4,4.4,3.8,5.1,2025-06-05 15:00:00,2025-06-10 04:00:00,109.0,3.5
+TASK_0516,Testing,Low,Pending,None,9,1.2,2.7,7.0,2025-06-03 13:00:00,2025-06-06 05:00:00,64.0,4.7
+TASK_0517,Group Project,High,Pending,None,10,0.6,0.4,2.5,2025-06-05 15:00:00,2025-06-07 14:00:00,47.0,4.2
+TASK_0518,Assignment,High,Completed,External,6,7.7,0.1,5.4,2025-06-05 16:00:00,2025-06-10 09:00:00,113.0,3.8
+TASK_0519,Documentation,Medium,Pending,External,3,3.3,0.5,7.6,2025-06-05 08:00:00,2025-06-09 12:00:00,100.0,2.7
+TASK_0520,Testing,High,Completed,External,5,5.0,2.1,8.8,2025-06-02 02:00:00,2025-06-04 03:00:00,49.0,4.1
+TASK_0521,Case Study,Medium,In Progress,None,5,1.1,4.7,6.6,2025-06-05 22:00:00,2025-06-06 15:00:00,17.0,4.6
+TASK_0522,Development,Medium,Completed,None,5,5.6,3.2,7.0,2025-06-02 10:00:00,2025-06-02 21:00:00,11.0,5.4
+TASK_0523,Analysis,Medium,In Progress,None,8,7.5,4.0,2.1,2025-06-05 19:00:00,2025-06-07 22:00:00,51.0,5.0
+TASK_0524,Report Writing,Medium,Pending,None,9,4.8,2.3,9.5,2025-06-02 20:00:00,2025-06-03 13:00:00,17.0,6.1
+TASK_0525,Report Writing,Medium,In Progress,Internal,9,1.4,1.8,2.2,2025-06-05 21:00:00,2025-06-08 17:00:00,68.0,4.1
+TASK_0526,Bug Fixing,High,Pending,None,6,4.9,0.5,8.0,2025-06-02 10:00:00,2025-06-05 21:00:00,83.0,3.9
+TASK_0527,Design,Medium,In Progress,Internal,6,6.2,4.4,3.4,2025-06-02 03:00:00,2025-06-05 16:00:00,85.0,4.3
+TASK_0528,Exam Preparation,Low,Completed,Internal,9,3.5,3.9,9.4,2025-06-05 06:00:00,2025-06-05 16:00:00,10.0,6.9
+TASK_0529,Customer Support,Low,Pending,None,4,7.1,0.8,7.5,2025-06-05 05:00:00,2025-06-08 15:00:00,82.0,3.6
+TASK_0530,Documentation,Medium,Pending,External,6,5.4,2.6,7.8,2025-06-01 08:00:00,2025-06-05 03:00:00,91.0,4.3
+TASK_0531,Exam Preparation,High,Completed,None,4,7.2,2.4,3.0,2025-06-04 03:00:00,2025-06-06 07:00:00,52.0,3.5
+TASK_0532,Brainstorming,Medium,Completed,None,1,5.2,3.1,5.0,2025-06-01 14:00:00,2025-06-06 12:00:00,118.0,2.5
+TASK_0533,Deployment,Medium,In Progress,None,7,1.5,4.7,6.6,2025-06-01 20:00:00,2025-06-04 06:00:00,58.0,4.5
+TASK_0534,Testing,Medium,Pending,None,10,2.8,2.9,7.9,2025-06-03 03:00:00,2025-06-03 19:00:00,16.0,6.1
+TASK_0535,Case Study,Medium,In Progress,None,6,2.0,2.7,1.9,2025-06-02 10:00:00,2025-06-05 14:00:00,76.0,3.3
+TASK_0536,Group Project,Medium,Pending,None,9,7.3,0.3,9.7,2025-06-05 09:00:00,2025-06-07 20:00:00,59.0,5.3
+TASK_0537,Research,Medium,Completed,None,7,6.2,0.3,9.0,2025-06-05 00:00:00,2025-06-07 11:00:00,59.0,4.5
+TASK_0538,Documentation,High,Completed,None,7,5.6,0.9,3.4,2025-06-03 02:00:00,2025-06-03 20:00:00,18.0,4.6
+TASK_0539,Customer Support,High,Completed,External,2,2.8,0.2,8.4,2025-06-04 10:00:00,2025-06-06 22:00:00,60.0,2.5
+TASK_0540,Bug Fixing,Medium,Completed,External,9,1.9,3.7,5.7,2025-06-03 06:00:00,2025-06-05 19:00:00,61.0,4.9
+TASK_0541,Planning,Low,Pending,None,10,6.2,3.6,5.2,2025-06-04 14:00:00,2025-06-06 04:00:00,38.0,5.8
+TASK_0542,Development,Low,Completed,None,9,4.1,0.7,3.8,2025-06-04 04:00:00,2025-06-07 23:00:00,91.0,4.3
+TASK_0543,Development,Low,Completed,External,6,2.2,4.2,6.2,2025-06-02 19:00:00,2025-06-06 23:00:00,100.0,4.0
+TASK_0544,Deployment,Medium,Pending,None,3,5.1,0.8,7.6,2025-06-03 16:00:00,2025-06-04 11:00:00,19.0,3.7
+TASK_0545,Training,Medium,Completed,External,1,0.8,1.5,4.7,2025-06-05 18:00:00,2025-06-06 05:00:00,11.0,3.1
+TASK_0546,Research,Medium,Pending,None,4,2.9,1.2,6.7,2025-06-04 20:00:00,2025-06-08 20:00:00,96.0,3.0
+TASK_0547,Lecture Notes Review,Medium,In Progress,None,3,4.0,1.9,7.3,2025-06-04 15:00:00,2025-06-08 09:00:00,90.0,3.0
+TASK_0548,Group Project,Low,Completed,None,1,1.6,1.3,7.4,2025-06-04 07:00:00,2025-06-06 07:00:00,48.0,2.2
+TASK_0549,Meeting,Medium,In Progress,None,3,7.9,2.4,1.5,2025-06-02 00:00:00,2025-06-06 02:00:00,98.0,3.0
+TASK_0550,Presentation,Low,Pending,External,4,2.1,2.0,8.7,2025-06-05 22:00:00,2025-06-07 17:00:00,43.0,3.5
+TASK_0551,Brainstorming,Medium,In Progress,None,8,1.5,4.9,5.1,2025-06-04 14:00:00,2025-06-09 10:00:00,116.0,4.5
+TASK_0552,Testing,Low,In Progress,External,9,2.0,0.3,3.4,2025-06-04 19:00:00,2025-06-07 04:00:00,57.0,4.0
+TASK_0553,Group Project,High,Completed,Internal,3,6.3,0.7,3.2,2025-06-02 22:00:00,2025-06-03 15:00:00,17.0,3.5
+TASK_0554,Review,Low,In Progress,None,6,3.7,0.3,5.3,2025-06-04 07:00:00,2025-06-06 21:00:00,62.0,3.5
+TASK_0555,Review,High,Pending,External,10,4.7,3.1,9.0,2025-06-05 10:00:00,2025-06-09 11:00:00,97.0,5.6
+TASK_0556,Deployment,Medium,Completed,None,5,0.7,0.3,4.4,2025-06-03 07:00:00,2025-06-05 15:00:00,56.0,2.8
+TASK_0557,Training,High,In Progress,None,6,0.8,4.2,7.7,2025-06-02 13:00:00,2025-06-06 23:00:00,106.0,4.0
+TASK_0558,Exam Preparation,Medium,In Progress,External,4,3.8,2.6,1.9,2025-06-01 10:00:00,2025-06-02 16:00:00,30.0,3.3
+TASK_0559,Testing,High,In Progress,None,10,6.6,2.6,5.3,2025-06-03 18:00:00,2025-06-05 20:00:00,50.0,5.5
+TASK_0560,Documentation,High,Completed,None,6,7.1,2.8,9.9,2025-06-01 14:00:00,2025-06-05 01:00:00,83.0,4.8
+TASK_0561,Training,Medium,In Progress,None,7,1.2,0.9,7.9,2025-06-01 00:00:00,2025-06-05 22:00:00,118.0,3.7
+TASK_0562,Testing,Medium,In Progress,None,9,4.5,1.0,2.9,2025-06-01 06:00:00,2025-06-01 15:00:00,9.0,6.0
+TASK_0563,Analysis,Medium,Pending,Internal,10,7.3,1.6,5.5,2025-06-01 00:00:00,2025-06-03 10:00:00,58.0,5.4
+TASK_0564,Group Project,Medium,Pending,Internal,7,3.4,3.0,3.1,2025-06-03 00:00:00,2025-06-07 04:00:00,100.0,3.9
+TASK_0565,Group Project,Low,Pending,External,6,6.7,1.1,4.7,2025-06-04 23:00:00,2025-06-06 22:00:00,47.0,4.0
+TASK_0566,Bug Fixing,Medium,Pending,External,1,1.5,0.6,8.0,2025-06-04 00:00:00,2025-06-04 21:00:00,21.0,2.6
+TASK_0567,Presentation,Medium,In Progress,None,2,7.5,4.9,7.9,2025-06-02 04:00:00,2025-06-02 23:00:00,19.0,4.5
+TASK_0568,Research,Medium,Completed,None,1,6.1,0.1,3.1,2025-06-02 01:00:00,2025-06-02 16:00:00,15.0,2.9
+TASK_0569,Customer Support,High,In Progress,None,9,7.6,4.0,9.3,2025-06-04 14:00:00,2025-06-05 13:00:00,23.0,6.4
+TASK_0570,Testing,Medium,Completed,None,10,5.6,3.9,6.3,2025-06-02 20:00:00,2025-06-04 20:00:00,48.0,5.8
+TASK_0571,Meeting,High,Completed,None,10,3.2,1.5,4.4,2025-06-05 10:00:00,2025-06-08 05:00:00,67.0,4.8
+TASK_0572,Analysis,Low,Completed,Internal,9,7.5,0.7,5.5,2025-06-04 20:00:00,2025-06-09 07:00:00,107.0,4.8
+TASK_0573,Group Project,Medium,In Progress,None,7,2.6,0.7,6.4,2025-06-05 19:00:00,2025-06-08 09:00:00,62.0,3.9
+TASK_0574,Brainstorming,Medium,In Progress,None,2,3.0,3.5,6.0,2025-06-05 05:00:00,2025-06-09 05:00:00,96.0,2.8
+TASK_0575,Meeting,Medium,In Progress,None,6,5.8,3.2,5.4,2025-06-05 00:00:00,2025-06-09 01:00:00,97.0,4.2
+TASK_0576,Deployment,High,Pending,External,4,6.2,3.9,5.5,2025-06-03 22:00:00,2025-06-07 19:00:00,93.0,3.8
+TASK_0577,Assignment,Low,Pending,External,1,7.5,4.7,2.6,2025-06-01 11:00:00,2025-06-02 12:00:00,25.0,3.4
+TASK_0578,Deployment,High,Completed,None,1,2.0,3.5,8.3,2025-06-04 22:00:00,2025-06-09 02:00:00,100.0,2.6
+TASK_0579,Exam Preparation,Medium,Completed,None,5,6.5,0.8,5.9,2025-06-02 07:00:00,2025-06-06 17:00:00,106.0,3.6
+TASK_0580,Group Project,Medium,Pending,Internal,2,6.0,1.2,2.2,2025-06-05 21:00:00,2025-06-07 23:00:00,50.0,2.5
+TASK_0581,Group Project,Medium,In Progress,None,4,1.0,4.2,7.9,2025-06-01 19:00:00,2025-06-03 03:00:00,32.0,3.8
+TASK_0582,Design,Medium,Completed,None,1,3.4,1.0,9.4,2025-06-05 22:00:00,2025-06-09 15:00:00,89.0,2.4
+TASK_0583,Assignment,Medium,Pending,External,4,2.6,0.4,9.5,2025-06-03 02:00:00,2025-06-05 02:00:00,48.0,3.3
+TASK_0584,Lecture Notes Review,Medium,Pending,Internal,6,2.8,3.5,4.3,2025-06-04 08:00:00,2025-06-07 16:00:00,80.0,3.8
+TASK_0585,Assignment,Low,Completed,None,10,7.9,2.0,2.2,2025-06-02 11:00:00,2025-06-02 23:00:00,12.0,6.4
+TASK_0586,Report Writing,Medium,In Progress,External,4,5.3,4.6,5.7,2025-06-03 18:00:00,2025-06-04 21:00:00,27.0,4.3
+TASK_0587,Development,Low,Pending,Internal,1,5.9,3.3,2.0,2025-06-01 00:00:00,2025-06-01 18:00:00,18.0,3.2
+TASK_0588,Review,Medium,In Progress,None,7,7.8,0.5,9.4,2025-06-05 17:00:00,2025-06-07 08:00:00,39.0,4.9
+TASK_0589,Analysis,Medium,Completed,Internal,2,3.3,4.7,2.7,2025-06-02 02:00:00,2025-06-02 18:00:00,16.0,3.6
+TASK_0590,Training,Medium,In Progress,External,9,6.5,1.3,3.3,2025-06-05 20:00:00,2025-06-09 18:00:00,94.0,4.6
+TASK_0591,Presentation,Medium,Pending,External,3,3.8,1.7,4.7,2025-06-05 14:00:00,2025-06-07 13:00:00,47.0,2.9
+TASK_0592,Bug Fixing,Low,Pending,External,8,7.0,2.0,4.4,2025-06-02 15:00:00,2025-06-06 23:00:00,104.0,4.6
+TASK_0593,Design,Medium,In Progress,None,8,1.9,0.3,8.2,2025-06-05 00:00:00,2025-06-08 02:00:00,74.0,4.1
+TASK_0594,Customer Support,Medium,In Progress,None,3,7.6,2.5,5.1,2025-06-04 11:00:00,2025-06-07 14:00:00,75.0,3.4
+TASK_0595,Brainstorming,Medium,Completed,None,4,2.1,0.6,2.5,2025-06-01 13:00:00,2025-06-05 21:00:00,104.0,2.4
+TASK_0596,Case Study,High,Pending,None,2,2.9,2.0,3.4,2025-06-05 03:00:00,2025-06-09 15:00:00,108.0,2.2
+TASK_0597,Design,Low,Completed,None,4,6.2,1.8,5.6,2025-06-03 20:00:00,2025-06-07 05:00:00,81.0,3.4
+TASK_0598,Meeting,Medium,Pending,Internal,9,3.5,3.9,2.3,2025-06-04 14:00:00,2025-06-07 21:00:00,79.0,4.7
+TASK_0599,Assignment,Medium,Pending,Internal,2,5.1,4.0,6.5,2025-06-05 12:00:00,2025-06-07 03:00:00,39.0,3.4
+TASK_0600,Analysis,Medium,Pending,External,3,3.8,0.8,6.1,2025-06-05 23:00:00,2025-06-10 22:00:00,119.0,2.7
+TASK_0601,Lecture Notes Review,Low,Pending,Internal,4,6.1,1.8,7.4,2025-06-04 06:00:00,2025-06-06 22:00:00,64.0,3.7
+TASK_0602,Report Writing,Low,In Progress,External,5,2.2,1.9,9.4,2025-06-01 05:00:00,2025-06-05 16:00:00,107.0,3.6
+TASK_0603,Exam Preparation,High,In Progress,None,1,0.9,0.8,9.2,2025-06-02 08:00:00,2025-06-05 20:00:00,84.0,2.1
+TASK_0604,Documentation,Medium,Pending,None,7,2.7,4.0,9.5,2025-06-03 06:00:00,2025-06-05 01:00:00,43.0,4.9
+TASK_0605,Lecture Notes Review,Medium,In Progress,None,10,4.1,3.5,3.2,2025-06-01 18:00:00,2025-06-05 18:00:00,96.0,5.0
+TASK_0606,Research,Medium,Pending,External,7,1.8,1.0,2.2,2025-06-04 04:00:00,2025-06-05 10:00:00,30.0,3.7
+TASK_0607,Deployment,Medium,Completed,None,9,3.2,1.8,3.7,2025-06-02 04:00:00,2025-06-02 08:00:00,4.0,7.9
+TASK_0608,Exam Preparation,Low,Completed,External,4,3.5,0.5,9.1,2025-06-03 12:00:00,2025-06-08 11:00:00,119.0,3.2
+TASK_0609,Assignment,Medium,Pending,None,6,0.9,3.1,9.7,2025-06-03 21:00:00,2025-06-05 10:00:00,37.0,4.3
+TASK_0610,Research,Medium,In Progress,External,2,4.9,0.6,8.7,2025-06-04 06:00:00,2025-06-07 05:00:00,71.0,2.8
+TASK_0611,Review,High,Pending,Internal,4,7.1,4.9,2.0,2025-06-04 07:00:00,2025-06-08 02:00:00,91.0,3.7
+TASK_0612,Research,Low,Pending,External,2,1.6,3.9,9.5,2025-06-01 23:00:00,2025-06-02 23:00:00,24.0,3.6
+TASK_0613,Bug Fixing,Medium,Pending,Internal,10,5.0,2.0,4.8,2025-06-01 22:00:00,2025-06-03 10:00:00,36.0,5.3
+TASK_0614,Development,Medium,Completed,Internal,5,5.5,2.9,1.1,2025-06-05 15:00:00,2025-06-06 01:00:00,10.0,4.9
+TASK_0615,Customer Support,Medium,In Progress,Internal,7,3.6,4.6,5.0,2025-06-01 09:00:00,2025-06-04 05:00:00,68.0,4.5
+TASK_0616,Review,Medium,Pending,Internal,1,5.8,2.8,1.4,2025-06-03 05:00:00,2025-06-07 17:00:00,108.0,2.2
+TASK_0617,Brainstorming,Medium,Completed,Internal,10,3.6,0.9,5.9,2025-06-05 08:00:00,2025-06-05 14:00:00,6.0,7.3
+TASK_0618,Customer Support,High,In Progress,External,10,4.3,1.9,4.0,2025-06-02 16:00:00,2025-06-07 07:00:00,111.0,4.8
+TASK_0619,Meeting,High,Completed,None,7,0.6,4.2,5.3,2025-06-03 00:00:00,2025-06-05 06:00:00,54.0,4.2
+TASK_0620,Assignment,Medium,In Progress,None,10,5.7,3.2,6.5,2025-06-01 16:00:00,2025-06-05 02:00:00,82.0,5.5
+TASK_0621,Presentation,High,In Progress,None,6,5.5,3.3,8.8,2025-06-05 16:00:00,2025-06-09 18:00:00,98.0,4.5
+TASK_0622,Group Project,Medium,Pending,None,6,0.8,4.3,7.0,2025-06-03 07:00:00,2025-06-05 16:00:00,57.0,4.1
+TASK_0623,Lecture Notes Review,Medium,Pending,None,8,3.3,4.5,4.9,2025-06-05 11:00:00,2025-06-08 22:00:00,83.0,4.7
+TASK_0624,Group Project,Low,Completed,Internal,8,7.8,4.6,8.4,2025-06-02 20:00:00,2025-06-06 01:00:00,77.0,5.6
+TASK_0625,Case Study,High,Pending,Internal,6,3.7,0.5,9.2,2025-06-02 05:00:00,2025-06-06 05:00:00,96.0,3.8
+TASK_0626,Analysis,Low,Completed,Internal,3,4.3,2.7,2.1,2025-06-02 19:00:00,2025-06-05 09:00:00,62.0,2.8
+TASK_0627,Deployment,Low,In Progress,None,5,7.3,3.7,5.8,2025-06-05 13:00:00,2025-06-05 22:00:00,9.0,5.9
+TASK_0628,Bug Fixing,Low,Pending,None,2,5.9,3.8,3.6,2025-06-04 01:00:00,2025-06-05 09:00:00,32.0,3.3
+TASK_0629,Training,Medium,Pending,None,5,4.9,3.0,1.4,2025-06-03 06:00:00,2025-06-04 02:00:00,20.0,4.0
+TASK_0630,Development,Low,Pending,None,9,6.5,0.8,7.0,2025-06-01 18:00:00,2025-06-04 09:00:00,63.0,5.0
+TASK_0631,Design,Low,Completed,None,10,7.0,4.0,8.8,2025-06-02 04:00:00,2025-06-03 05:00:00,25.0,6.5
+TASK_0632,Planning,Low,In Progress,None,1,3.9,3.6,2.5,2025-06-01 01:00:00,2025-06-02 04:00:00,27.0,2.7
+TASK_0633,Documentation,Low,Pending,Internal,10,4.1,0.4,8.3,2025-06-02 11:00:00,2025-06-05 23:00:00,84.0,5.0
+TASK_0634,Bug Fixing,Medium,Pending,External,5,3.4,2.3,8.7,2025-06-01 18:00:00,2025-06-05 10:00:00,88.0,3.8
+TASK_0635,Group Project,Medium,Pending,None,6,7.8,0.9,9.2,2025-06-01 06:00:00,2025-06-03 12:00:00,54.0,4.5
+TASK_0636,Development,Medium,In Progress,None,7,5.7,1.7,3.4,2025-06-02 01:00:00,2025-06-04 06:00:00,53.0,4.2
+TASK_0637,Meeting,Medium,Pending,None,9,1.1,0.1,9.1,2025-06-04 06:00:00,2025-06-04 20:00:00,14.0,5.4
+TASK_0638,Meeting,Medium,Completed,None,6,7.0,2.0,3.9,2025-06-05 14:00:00,2025-06-08 01:00:00,59.0,4.1
+TASK_0639,Bug Fixing,Low,Pending,Internal,5,4.1,2.7,6.0,2025-06-05 23:00:00,2025-06-09 01:00:00,74.0,3.7
+TASK_0640,Design,Medium,Pending,None,7,1.0,3.1,1.5,2025-06-02 13:00:00,2025-06-04 10:00:00,45.0,3.7
+TASK_0641,Brainstorming,High,In Progress,None,1,4.6,3.3,1.4,2025-06-01 02:00:00,2025-06-02 20:00:00,42.0,2.4
+TASK_0642,Report Writing,Medium,In Progress,None,5,3.6,4.2,7.5,2025-06-05 05:00:00,2025-06-08 05:00:00,72.0,4.1
+TASK_0643,Assignment,Low,Completed,None,2,7.1,1.1,5.0,2025-06-04 07:00:00,2025-06-08 22:00:00,111.0,2.7
+TASK_0644,Brainstorming,Medium,In Progress,External,4,2.0,0.6,3.3,2025-06-03 17:00:00,2025-06-05 20:00:00,51.0,2.6
+TASK_0645,Group Project,Medium,Pending,External,7,6.7,4.3,2.7,2025-06-04 22:00:00,2025-06-07 10:00:00,60.0,4.6
+TASK_0646,Meeting,Medium,In Progress,External,5,4.7,0.8,7.0,2025-06-04 19:00:00,2025-06-05 19:00:00,24.0,4.0
+TASK_0647,Planning,Low,Pending,None,6,0.9,4.9,1.0,2025-06-03 22:00:00,2025-06-07 11:00:00,85.0,3.5
+TASK_0648,Customer Support,Low,Pending,None,2,7.8,4.2,8.3,2025-06-04 21:00:00,2025-06-09 03:00:00,102.0,3.7
+TASK_0649,Analysis,Low,Completed,None,3,4.3,2.5,1.7,2025-06-02 18:00:00,2025-06-03 17:00:00,23.0,3.2
+TASK_0650,Meeting,High,Completed,Internal,7,2.7,4.9,2.7,2025-06-03 13:00:00,2025-06-04 07:00:00,18.0,4.9
+TASK_0651,Assignment,High,Completed,None,2,4.0,0.5,4.5,2025-06-03 22:00:00,2025-06-06 22:00:00,72.0,2.3
+TASK_0652,Lecture Notes Review,Low,In Progress,None,6,6.9,1.5,5.4,2025-06-05 03:00:00,2025-06-08 11:00:00,80.0,4.1
+TASK_0653,Deployment,Low,In Progress,External,5,2.8,3.2,4.2,2025-06-04 20:00:00,2025-06-07 02:00:00,54.0,3.6
+TASK_0654,Brainstorming,High,Pending,External,10,1.9,1.8,3.9,2025-06-01 23:00:00,2025-06-05 06:00:00,79.0,4.6
+TASK_0655,Development,Low,Pending,None,1,1.5,4.6,9.7,2025-06-05 19:00:00,2025-06-08 12:00:00,65.0,2.9
+TASK_0656,Development,Low,Completed,None,10,2.7,0.3,6.8,2025-06-02 14:00:00,2025-06-06 06:00:00,88.0,4.7
+TASK_0657,Deployment,High,Pending,None,4,6.4,2.7,1.2,2025-06-03 19:00:00,2025-06-05 11:00:00,40.0,3.4
+TASK_0658,Analysis,Low,Completed,Internal,2,4.0,3.0,4.9,2025-06-04 20:00:00,2025-06-05 05:00:00,9.0,4.4
+TASK_0659,Assignment,Medium,Completed,None,4,2.2,3.3,8.9,2025-06-02 19:00:00,2025-06-05 21:00:00,74.0,3.6
+TASK_0660,Development,High,Pending,Internal,1,1.7,1.3,3.7,2025-06-01 04:00:00,2025-06-02 09:00:00,29.0,2.1
+TASK_0661,Assignment,Medium,In Progress,None,2,3.0,1.8,1.9,2025-06-03 06:00:00,2025-06-07 19:00:00,109.0,2.0
+TASK_0662,Development,Low,In Progress,Internal,8,7.5,4.2,7.8,2025-06-04 20:00:00,2025-06-09 15:00:00,115.0,5.4
+TASK_0663,Documentation,Low,Pending,Internal,6,3.1,1.0,6.5,2025-06-02 05:00:00,2025-06-02 16:00:00,11.0,5.0
+TASK_0664,Documentation,High,Completed,None,2,7.9,4.1,6.1,2025-06-02 04:00:00,2025-06-05 08:00:00,76.0,3.5
+TASK_0665,Training,High,In Progress,Internal,6,4.1,2.8,1.5,2025-06-02 01:00:00,2025-06-05 23:00:00,94.0,3.5
+TASK_0666,Brainstorming,High,Pending,None,10,1.8,3.8,2.3,2025-06-04 10:00:00,2025-06-04 17:00:00,7.0,6.9
+TASK_0667,Assignment,Low,In Progress,Internal,9,7.2,3.6,6.6,2025-06-02 01:00:00,2025-06-03 01:00:00,24.0,6.0
+TASK_0668,Case Study,High,Completed,External,7,4.0,1.0,2.9,2025-06-02 12:00:00,2025-06-03 22:00:00,34.0,4.0
+TASK_0669,Customer Support,High,Pending,None,9,5.8,2.8,5.5,2025-06-04 18:00:00,2025-06-05 18:00:00,24.0,5.6
+TASK_0670,Case Study,Medium,Completed,External,5,7.9,4.3,5.9,2025-06-04 21:00:00,2025-06-09 08:00:00,107.0,4.4
+TASK_0671,Meeting,High,Pending,Internal,7,0.9,2.2,3.6,2025-06-05 18:00:00,2025-06-06 22:00:00,28.0,4.0
+TASK_0672,Training,High,Completed,None,7,1.2,4.8,9.5,2025-06-03 04:00:00,2025-06-07 14:00:00,106.0,4.6
+TASK_0673,Group Project,Medium,Completed,None,3,5.9,2.3,8.6,2025-06-02 05:00:00,2025-06-02 23:00:00,18.0,4.3
+TASK_0674,Group Project,Medium,Pending,External,7,2.6,0.7,7.5,2025-06-01 02:00:00,2025-06-02 16:00:00,38.0,4.2
+TASK_0675,Review,Medium,Pending,Internal,1,1.9,1.9,1.7,2025-06-02 18:00:00,2025-06-04 22:00:00,52.0,1.8
+TASK_0676,Meeting,Low,Completed,None,9,0.8,4.8,2.0,2025-06-01 06:00:00,2025-06-03 04:00:00,46.0,4.6
+TASK_0677,Brainstorming,Medium,In Progress,None,10,0.7,1.6,5.4,2025-06-03 00:00:00,2025-06-04 20:00:00,44.0,4.7
+TASK_0678,Research,Medium,Completed,None,6,6.3,4.3,2.4,2025-06-04 00:00:00,2025-06-05 16:00:00,40.0,4.4
+TASK_0679,Planning,High,Pending,None,5,1.5,4.4,9.8,2025-06-05 20:00:00,2025-06-08 08:00:00,60.0,4.1
+TASK_0680,Research,High,Completed,None,7,4.0,1.8,2.4,2025-06-02 16:00:00,2025-06-04 13:00:00,45.0,3.9
+TASK_0681,Testing,High,Completed,Internal,5,5.0,0.4,5.4,2025-06-05 09:00:00,2025-06-07 11:00:00,50.0,3.5
+TASK_0682,Planning,Low,Completed,None,10,3.7,3.6,4.3,2025-06-04 04:00:00,2025-06-08 03:00:00,95.0,5.1
+TASK_0683,Analysis,Low,Pending,External,5,0.7,1.6,6.8,2025-06-04 06:00:00,2025-06-06 22:00:00,64.0,3.2
+TASK_0684,Bug Fixing,Low,In Progress,None,10,6.4,3.9,2.2,2025-06-03 05:00:00,2025-06-03 22:00:00,17.0,6.1
+TASK_0685,Exam Preparation,Medium,In Progress,None,7,0.6,2.2,4.9,2025-06-03 20:00:00,2025-06-06 19:00:00,71.0,3.7
+TASK_0686,Meeting,High,Pending,None,10,6.2,2.4,3.5,2025-06-04 20:00:00,2025-06-07 04:00:00,56.0,5.2
+TASK_0687,Exam Preparation,High,In Progress,None,7,7.2,3.9,9.0,2025-06-05 02:00:00,2025-06-08 17:00:00,87.0,5.2
+TASK_0688,Development,Medium,Pending,External,3,3.7,1.9,1.4,2025-06-04 18:00:00,2025-06-06 07:00:00,37.0,2.7
+TASK_0689,Brainstorming,High,Completed,Internal,3,4.5,2.2,9.2,2025-06-02 02:00:00,2025-06-05 09:00:00,79.0,3.4
+TASK_0690,Lecture Notes Review,High,In Progress,External,10,4.1,1.9,8.5,2025-06-01 07:00:00,2025-06-05 11:00:00,100.0,5.3
+TASK_0691,Design,Medium,Pending,Internal,3,3.4,1.8,3.7,2025-06-02 07:00:00,2025-06-03 10:00:00,27.0,3.1
+TASK_0692,Design,High,In Progress,Internal,6,7.2,2.6,8.1,2025-06-04 11:00:00,2025-06-05 10:00:00,23.0,5.1
+TASK_0693,Development,Medium,In Progress,None,6,7.2,4.0,1.3,2025-06-03 15:00:00,2025-06-06 15:00:00,72.0,4.2
+TASK_0694,Assignment,Low,Pending,Internal,3,3.0,1.8,9.7,2025-06-01 09:00:00,2025-06-05 18:00:00,105.0,3.1
+TASK_0695,Case Study,Medium,Completed,External,3,5.1,2.6,5.7,2025-06-01 12:00:00,2025-06-02 21:00:00,33.0,3.5
+TASK_0696,Planning,Medium,Completed,None,8,7.5,3.4,3.7,2025-06-03 14:00:00,2025-06-07 09:00:00,91.0,4.9
+TASK_0697,Report Writing,Medium,In Progress,External,8,7.7,1.3,4.3,2025-06-04 20:00:00,2025-06-09 10:00:00,110.0,4.5
+TASK_0698,Training,Medium,Pending,None,7,4.3,1.4,1.6,2025-06-02 10:00:00,2025-06-06 21:00:00,107.0,3.6
+TASK_0699,Testing,Medium,Completed,None,10,3.9,4.7,9.9,2025-06-03 12:00:00,2025-06-03 22:00:00,10.0,7.4
+TASK_0700,Deployment,Medium,In Progress,External,4,2.6,3.6,1.4,2025-06-03 05:00:00,2025-06-04 20:00:00,39.0,3.2
+TASK_0701,Planning,Medium,Pending,None,4,7.7,2.9,6.9,2025-06-01 07:00:00,2025-06-03 00:00:00,41.0,4.2
+TASK_0702,Deployment,Medium,In Progress,None,3,1.6,3.2,5.0,2025-06-02 04:00:00,2025-06-05 15:00:00,83.0,2.8
+TASK_0703,Bug Fixing,Medium,In Progress,Internal,5,4.8,0.1,9.5,2025-06-04 22:00:00,2025-06-07 05:00:00,55.0,3.8
+TASK_0704,Planning,Medium,In Progress,External,3,2.6,3.1,3.2,2025-06-02 16:00:00,2025-06-03 10:00:00,18.0,3.5
+TASK_0705,Bug Fixing,Low,In Progress,None,8,2.6,2.5,5.8,2025-06-02 05:00:00,2025-06-04 06:00:00,49.0,4.5
+TASK_0706,Design,Medium,In Progress,External,7,3.5,2.7,5.3,2025-06-04 13:00:00,2025-06-05 15:00:00,26.0,4.6
+TASK_0707,Training,Low,Completed,None,3,8.0,1.8,7.3,2025-06-01 20:00:00,2025-06-02 11:00:00,15.0,4.5
+TASK_0708,Planning,Medium,Pending,None,9,0.9,0.4,1.6,2025-06-04 03:00:00,2025-06-08 03:00:00,96.0,3.6
+TASK_0709,Presentation,High,Completed,Internal,5,4.8,1.0,2.7,2025-06-01 10:00:00,2025-06-03 09:00:00,47.0,3.3
+TASK_0710,Deployment,Medium,Completed,External,9,1.1,4.8,2.9,2025-06-01 01:00:00,2025-06-05 20:00:00,115.0,4.5
+TASK_0711,Meeting,Medium,In Progress,None,7,1.7,2.0,7.6,2025-06-03 01:00:00,2025-06-03 19:00:00,18.0,4.8
+TASK_0712,Design,High,In Progress,Internal,7,3.8,2.3,2.7,2025-06-02 16:00:00,2025-06-06 16:00:00,96.0,3.8
+TASK_0713,Documentation,High,In Progress,Internal,6,4.3,0.3,6.2,2025-06-03 17:00:00,2025-06-08 09:00:00,112.0,3.5
+TASK_0714,Training,High,In Progress,None,2,2.4,0.2,2.9,2025-06-05 01:00:00,2025-06-09 15:00:00,110.0,1.8
+TASK_0715,Brainstorming,High,Completed,None,9,2.9,3.6,8.8,2025-06-01 02:00:00,2025-06-03 06:00:00,52.0,5.3
+TASK_0716,Development,Low,In Progress,None,6,1.2,2.7,9.5,2025-06-04 07:00:00,2025-06-05 07:00:00,24.0,4.5
+TASK_0717,Review,Low,Completed,External,8,2.8,2.5,5.7,2025-06-03 02:00:00,2025-06-03 20:00:00,18.0,5.1
+TASK_0718,Documentation,Medium,Pending,External,1,7.7,1.2,4.2,2025-06-03 19:00:00,2025-06-04 12:00:00,17.0,3.3
+TASK_0719,Brainstorming,Low,Pending,External,5,7.6,3.7,3.1,2025-06-04 14:00:00,2025-06-06 11:00:00,45.0,4.2
+TASK_0720,Documentation,Medium,In Progress,Internal,1,3.0,0.8,1.4,2025-06-05 17:00:00,2025-06-10 08:00:00,111.0,1.5
+TASK_0721,Brainstorming,Medium,Pending,External,10,4.8,0.9,3.4,2025-06-04 11:00:00,2025-06-07 22:00:00,83.0,4.7
+TASK_0722,Presentation,Medium,Pending,None,8,7.3,2.3,6.9,2025-06-02 00:00:00,2025-06-02 18:00:00,18.0,5.8
+TASK_0723,Development,High,Pending,None,8,0.5,1.4,5.8,2025-06-02 05:00:00,2025-06-06 18:00:00,109.0,3.8
+TASK_0724,Planning,High,Pending,None,1,6.6,1.2,9.5,2025-06-04 09:00:00,2025-06-07 03:00:00,66.0,2.9
+TASK_0725,Deployment,Medium,Pending,None,9,7.6,3.2,4.6,2025-06-05 09:00:00,2025-06-08 08:00:00,71.0,5.3
+TASK_0726,Assignment,High,Completed,External,2,1.2,3.3,7.2,2025-06-01 10:00:00,2025-06-02 16:00:00,30.0,3.0
+TASK_0727,Planning,Medium,Pending,Internal,9,1.7,4.1,5.4,2025-06-04 20:00:00,2025-06-08 14:00:00,90.0,4.8
+TASK_0728,Group Project,High,Completed,None,1,7.7,2.1,5.6,2025-06-01 16:00:00,2025-06-05 16:00:00,96.0,2.7
+TASK_0729,Report Writing,Low,Completed,None,10,4.5,0.4,3.4,2025-06-02 01:00:00,2025-06-06 13:00:00,108.0,4.5
+TASK_0730,Report Writing,High,Completed,External,9,0.6,1.4,5.1,2025-06-05 23:00:00,2025-06-08 07:00:00,56.0,4.2
+TASK_0731,Lecture Notes Review,Medium,Pending,None,4,2.4,4.9,5.2,2025-06-01 22:00:00,2025-06-04 05:00:00,55.0,3.6
+TASK_0732,Report Writing,Medium,Completed,None,9,3.9,3.0,7.4,2025-06-03 07:00:00,2025-06-06 01:00:00,66.0,5.1
+TASK_0733,Training,Low,In Progress,None,7,5.7,3.5,9.5,2025-06-03 03:00:00,2025-06-06 07:00:00,76.0,5.0
+TASK_0734,Design,Medium,In Progress,None,6,6.0,0.0,4.0,2025-06-02 23:00:00,2025-06-05 07:00:00,56.0,3.6
+TASK_0735,Lecture Notes Review,Low,In Progress,Internal,5,8.0,2.6,1.4,2025-06-01 19:00:00,2025-06-04 07:00:00,60.0,3.8
+TASK_0736,Report Writing,Low,Completed,None,9,2.7,0.2,5.5,2025-06-05 12:00:00,2025-06-07 19:00:00,55.0,4.3
+TASK_0737,Lecture Notes Review,Medium,Pending,None,2,4.5,2.8,5.9,2025-06-01 01:00:00,2025-06-05 15:00:00,110.0,2.8
+TASK_0738,Research,Medium,Completed,None,2,4.5,4.6,2.5,2025-06-04 15:00:00,2025-06-06 13:00:00,46.0,3.0
+TASK_0739,Review,Medium,In Progress,Internal,9,3.5,4.8,7.8,2025-06-02 06:00:00,2025-06-02 16:00:00,10.0,6.9
+TASK_0740,Research,High,Completed,None,3,1.8,2.7,9.9,2025-06-02 02:00:00,2025-06-03 23:00:00,45.0,3.4
+TASK_0741,Review,Medium,Completed,None,8,7.8,2.3,9.5,2025-06-01 01:00:00,2025-06-01 08:00:00,7.0,7.4
+TASK_0742,Analysis,Medium,Pending,None,9,6.9,4.7,2.8,2025-06-04 05:00:00,2025-06-07 05:00:00,72.0,5.3
+TASK_0743,Analysis,Low,Completed,None,8,4.2,3.4,8.9,2025-06-01 03:00:00,2025-06-01 11:00:00,8.0,6.9
+TASK_0744,Bug Fixing,High,Pending,None,4,5.0,0.3,7.3,2025-06-05 16:00:00,2025-06-08 22:00:00,78.0,3.2
+TASK_0745,Training,Medium,Pending,External,1,2.2,2.3,5.1,2025-06-01 12:00:00,2025-06-06 00:00:00,108.0,2.0
+TASK_0746,Training,High,Pending,None,4,4.6,1.2,5.9,2025-06-05 03:00:00,2025-06-09 02:00:00,95.0,3.1
+TASK_0747,Assignment,High,Pending,None,9,5.7,2.3,8.6,2025-06-02 10:00:00,2025-06-05 21:00:00,83.0,5.3
+TASK_0748,Development,Medium,In Progress,Internal,2,4.4,2.3,5.3,2025-06-05 11:00:00,2025-06-07 07:00:00,44.0,2.9
+TASK_0749,Bug Fixing,Low,Pending,None,3,7.9,2.9,4.4,2025-06-05 21:00:00,2025-06-09 22:00:00,97.0,3.4
+TASK_0750,Documentation,High,Pending,None,10,5.1,1.8,5.4,2025-06-05 22:00:00,2025-06-06 05:00:00,7.0,7.2
+TASK_0751,Assignment,High,Completed,None,8,3.3,0.8,6.2,2025-06-03 23:00:00,2025-06-04 04:00:00,5.0,7.1
+TASK_0752,Deployment,Low,Completed,Internal,6,6.3,2.5,2.7,2025-06-03 17:00:00,2025-06-08 10:00:00,113.0,3.8
+TASK_0753,Meeting,Low,Completed,None,8,1.8,4.2,9.1,2025-06-01 05:00:00,2025-06-04 03:00:00,70.0,4.9
+TASK_0754,Development,High,Completed,Internal,7,3.4,3.3,7.1,2025-06-02 06:00:00,2025-06-07 03:00:00,117.0,4.4
+TASK_0755,Customer Support,Low,Completed,External,5,3.1,1.7,6.7,2025-06-05 21:00:00,2025-06-06 21:00:00,24.0,4.0
+TASK_0756,Exam Preparation,High,Pending,None,9,3.7,4.7,1.9,2025-06-01 09:00:00,2025-06-04 10:00:00,73.0,4.8
+TASK_0757,Case Study,Medium,Pending,Internal,4,6.4,4.6,6.4,2025-06-05 11:00:00,2025-06-07 09:00:00,46.0,4.2
+TASK_0758,Planning,Low,Completed,None,6,4.1,1.0,2.1,2025-06-01 20:00:00,2025-06-05 09:00:00,85.0,3.3
+TASK_0759,Brainstorming,High,Pending,None,2,6.5,0.2,1.7,2025-06-05 09:00:00,2025-06-10 00:00:00,111.0,2.1
+TASK_0760,Case Study,Medium,In Progress,Internal,2,4.8,3.7,5.7,2025-06-04 01:00:00,2025-06-07 01:00:00,72.0,3.1
+TASK_0761,Group Project,Medium,Pending,External,2,3.1,4.1,4.6,2025-06-01 22:00:00,2025-06-02 10:00:00,12.0,4.0
+TASK_0762,Customer Support,Low,Pending,External,10,6.6,4.8,6.3,2025-06-01 02:00:00,2025-06-04 17:00:00,87.0,5.9
+TASK_0763,Design,Low,In Progress,None,7,2.3,4.4,1.8,2025-06-02 07:00:00,2025-06-03 14:00:00,31.0,4.3
+TASK_0764,Design,Medium,In Progress,None,2,2.2,3.0,4.9,2025-06-01 19:00:00,2025-06-03 00:00:00,29.0,2.9
+TASK_0765,Report Writing,Medium,In Progress,External,2,4.3,2.7,2.6,2025-06-04 01:00:00,2025-06-07 14:00:00,85.0,2.5
+TASK_0766,Lecture Notes Review,Medium,In Progress,None,9,2.5,0.1,9.9,2025-06-02 04:00:00,2025-06-05 18:00:00,86.0,4.6
+TASK_0767,Brainstorming,High,Pending,None,7,0.6,1.2,6.1,2025-06-05 08:00:00,2025-06-05 14:00:00,6.0,6.1
+TASK_0768,Review,Medium,Pending,None,3,5.4,2.3,7.2,2025-06-03 03:00:00,2025-06-06 07:00:00,76.0,3.3
+TASK_0769,Meeting,Low,Completed,None,3,4.3,3.1,3.9,2025-06-05 18:00:00,2025-06-10 01:00:00,103.0,2.9
+TASK_0770,Research,Medium,In Progress,Internal,7,3.8,2.8,1.9,2025-06-02 21:00:00,2025-06-06 23:00:00,98.0,3.8
+TASK_0771,Brainstorming,High,Pending,None,5,7.8,3.7,9.8,2025-06-02 09:00:00,2025-06-04 13:00:00,52.0,4.8
+TASK_0772,Analysis,High,Completed,Internal,10,4.8,1.4,3.6,2025-06-05 04:00:00,2025-06-06 00:00:00,20.0,5.5
+TASK_0773,Presentation,Medium,Pending,None,6,7.0,2.8,4.8,2025-06-04 11:00:00,2025-06-07 05:00:00,66.0,4.3
+TASK_0774,Design,Low,In Progress,External,8,1.5,0.4,6.8,2025-06-03 12:00:00,2025-06-05 22:00:00,58.0,4.0
+TASK_0775,Design,Medium,Pending,None,9,4.8,2.1,1.2,2025-06-03 23:00:00,2025-06-05 01:00:00,26.0,4.9
+TASK_0776,Case Study,High,Completed,None,1,7.0,3.8,8.3,2025-06-03 22:00:00,2025-06-05 11:00:00,37.0,3.5
+TASK_0777,Case Study,High,In Progress,None,3,4.9,3.5,5.8,2025-06-03 21:00:00,2025-06-08 09:00:00,108.0,3.3
+TASK_0778,Planning,Medium,Pending,None,7,5.9,5.0,3.5,2025-06-01 10:00:00,2025-06-05 22:00:00,108.0,4.6
+TASK_0779,Group Project,High,Completed,None,6,3.3,1.4,1.6,2025-06-05 11:00:00,2025-06-08 11:00:00,72.0,3.2
+TASK_0780,Case Study,High,In Progress,Internal,7,1.2,2.5,2.5,2025-06-04 09:00:00,2025-06-05 03:00:00,18.0,4.3
+TASK_0781,Training,Low,Pending,External,8,3.9,1.6,9.1,2025-06-05 18:00:00,2025-06-07 20:00:00,50.0,4.8
+TASK_0782,Testing,Medium,Pending,None,6,3.5,2.2,7.2,2025-06-05 09:00:00,2025-06-05 15:00:00,6.0,6.4
+TASK_0783,Analysis,Low,Pending,None,3,7.0,4.3,3.2,2025-06-04 20:00:00,2025-06-08 10:00:00,86.0,3.4
+TASK_0784,Design,Low,Pending,None,2,2.3,3.4,1.6,2025-06-04 16:00:00,2025-06-05 23:00:00,31.0,2.6
+TASK_0785,Case Study,High,In Progress,None,7,7.8,4.4,7.2,2025-06-03 14:00:00,2025-06-03 20:00:00,6.0,7.6
+TASK_0786,Report Writing,Medium,Completed,External,1,7.7,1.0,6.2,2025-06-01 20:00:00,2025-06-06 05:00:00,105.0,2.6
+TASK_0787,Design,Medium,In Progress,Internal,3,2.4,4.4,4.6,2025-06-05 13:00:00,2025-06-05 20:00:00,7.0,5.2
+TASK_0788,Group Project,Low,Pending,None,4,3.1,0.3,4.3,2025-06-01 02:00:00,2025-06-04 21:00:00,91.0,2.6
+TASK_0789,Bug Fixing,Medium,Pending,None,1,7.2,4.4,3.0,2025-06-04 09:00:00,2025-06-05 19:00:00,34.0,3.2
+TASK_0790,Deployment,Low,Pending,None,5,7.7,1.6,7.0,2025-06-04 15:00:00,2025-06-06 15:00:00,48.0,4.2
+TASK_0791,Analysis,Low,In Progress,External,10,3.8,1.6,9.7,2025-06-05 14:00:00,2025-06-08 04:00:00,62.0,5.4
+TASK_0792,Training,Medium,Completed,None,3,2.9,2.6,2.6,2025-06-05 05:00:00,2025-06-07 05:00:00,48.0,2.7
+TASK_0793,Design,Low,Pending,External,2,4.4,4.7,6.4,2025-06-01 09:00:00,2025-06-04 15:00:00,78.0,3.2
+TASK_0794,Development,Medium,Completed,External,3,5.7,0.2,4.8,2025-06-02 02:00:00,2025-06-03 18:00:00,40.0,2.9
+TASK_0795,Documentation,Low,Completed,None,8,2.6,1.8,5.0,2025-06-01 11:00:00,2025-06-04 07:00:00,68.0,4.2
+TASK_0796,Testing,Low,In Progress,External,6,6.0,4.3,3.3,2025-06-01 06:00:00,2025-06-01 18:00:00,12.0,5.5
+TASK_0797,Brainstorming,Low,Completed,None,7,0.9,2.0,8.4,2025-06-01 16:00:00,2025-06-02 12:00:00,20.0,4.7
+TASK_0798,Testing,Medium,In Progress,External,6,0.9,1.0,5.4,2025-06-03 16:00:00,2025-06-06 12:00:00,68.0,3.3
+TASK_0799,Exam Preparation,Medium,In Progress,None,6,3.4,2.1,5.9,2025-06-03 15:00:00,2025-06-03 21:00:00,6.0,6.2
+TASK_0800,Brainstorming,Medium,In Progress,None,3,3.2,1.9,3.7,2025-06-05 17:00:00,2025-06-10 11:00:00,114.0,2.5
+TASK_0801,Group Project,Medium,In Progress,Internal,8,2.9,4.6,2.6,2025-06-02 01:00:00,2025-06-03 06:00:00,29.0,4.8
+TASK_0802,Presentation,High,Pending,Internal,7,4.2,3.8,1.8,2025-06-01 14:00:00,2025-06-03 22:00:00,56.0,4.2
+TASK_0803,Review,Low,Pending,Internal,7,2.9,2.5,7.4,2025-06-05 18:00:00,2025-06-07 04:00:00,34.0,4.6
+TASK_0804,Documentation,Medium,Pending,None,6,1.9,4.9,2.8,2025-06-02 08:00:00,2025-06-03 13:00:00,29.0,4.2
+TASK_0805,Analysis,High,In Progress,External,5,2.8,2.3,7.2,2025-06-03 13:00:00,2025-06-04 15:00:00,26.0,4.0
+TASK_0806,Customer Support,Medium,Pending,None,10,7.8,0.3,4.5,2025-06-05 04:00:00,2025-06-06 13:00:00,33.0,5.4
+TASK_0807,Group Project,Medium,Completed,Internal,8,3.6,1.3,4.7,2025-06-02 22:00:00,2025-06-03 11:00:00,13.0,5.3
+TASK_0808,Bug Fixing,High,Completed,None,5,3.8,2.2,5.2,2025-06-04 22:00:00,2025-06-08 01:00:00,75.0,3.5
+TASK_0809,Design,High,In Progress,Internal,9,4.8,0.8,4.3,2025-06-02 10:00:00,2025-06-07 01:00:00,111.0,4.4
+TASK_0810,Review,Low,Pending,Internal,9,7.9,4.7,1.9,2025-06-03 16:00:00,2025-06-07 12:00:00,92.0,5.3
+TASK_0811,Design,Medium,Completed,External,1,2.3,3.8,3.8,2025-06-03 23:00:00,2025-06-06 18:00:00,67.0,2.3
+TASK_0812,Planning,Medium,Completed,None,6,5.6,1.3,7.0,2025-06-04 03:00:00,2025-06-05 04:00:00,25.0,4.5
+TASK_0813,Design,Medium,Completed,None,7,5.9,3.0,7.0,2025-06-05 21:00:00,2025-06-06 15:00:00,18.0,5.4
+TASK_0814,Research,Medium,Pending,Internal,3,5.1,3.6,3.6,2025-06-04 10:00:00,2025-06-08 22:00:00,108.0,3.1
+TASK_0815,Research,Medium,In Progress,None,7,1.2,4.7,5.1,2025-06-02 00:00:00,2025-06-04 11:00:00,59.0,4.3
+TASK_0816,Brainstorming,Medium,Pending,Internal,7,5.6,4.4,2.7,2025-06-03 08:00:00,2025-06-06 13:00:00,77.0,4.5
+TASK_0817,Exam Preparation,Medium,Pending,None,2,1.0,2.6,2.9,2025-06-02 07:00:00,2025-06-03 06:00:00,23.0,2.6
+TASK_0818,Training,High,Completed,None,7,5.0,3.9,1.2,2025-06-03 14:00:00,2025-06-08 02:00:00,108.0,4.1
+TASK_0819,Documentation,Medium,Completed,Internal,1,6.0,2.8,9.1,2025-06-01 11:00:00,2025-06-03 13:00:00,50.0,3.2
+TASK_0820,Customer Support,Low,In Progress,External,5,2.1,2.8,2.9,2025-06-03 14:00:00,2025-06-07 08:00:00,90.0,3.1
+TASK_0821,Development,Medium,Completed,None,9,6.8,0.6,3.0,2025-06-04 04:00:00,2025-06-06 12:00:00,56.0,4.6
+TASK_0822,Deployment,Low,In Progress,None,7,0.7,0.6,3.5,2025-06-04 19:00:00,2025-06-07 03:00:00,56.0,3.4
+TASK_0823,Presentation,Medium,In Progress,None,7,6.8,2.6,2.1,2025-06-01 00:00:00,2025-06-01 04:00:00,4.0,7.7
+TASK_0824,Planning,Medium,Pending,External,2,4.0,1.3,6.8,2025-06-03 02:00:00,2025-06-03 07:00:00,5.0,5.5
+TASK_0825,Group Project,Low,Completed,None,8,2.1,0.1,1.7,2025-06-03 21:00:00,2025-06-06 10:00:00,61.0,3.5
+TASK_0826,Deployment,Medium,Pending,Internal,3,1.5,3.6,2.2,2025-06-01 07:00:00,2025-06-02 05:00:00,22.0,3.1
+TASK_0827,Development,Low,Completed,Internal,8,7.6,0.2,6.8,2025-06-03 19:00:00,2025-06-06 12:00:00,65.0,4.7
+TASK_0828,Meeting,Low,Completed,None,3,1.0,3.0,4.1,2025-06-01 04:00:00,2025-06-04 13:00:00,81.0,2.6
+TASK_0829,Assignment,Medium,Pending,External,10,2.0,2.7,7.4,2025-06-04 16:00:00,2025-06-07 19:00:00,75.0,5.1
+TASK_0830,Assignment,Medium,In Progress,None,7,3.1,4.8,6.0,2025-06-04 13:00:00,2025-06-08 22:00:00,105.0,4.5
+TASK_0831,Deployment,High,Completed,None,2,5.2,2.4,3.3,2025-06-04 19:00:00,2025-06-05 10:00:00,15.0,3.5
+TASK_0832,Deployment,Medium,In Progress,Internal,4,4.6,0.3,6.9,2025-06-02 14:00:00,2025-06-03 19:00:00,29.0,3.5
+TASK_0833,Lecture Notes Review,Medium,Completed,None,6,1.4,2.8,2.0,2025-06-01 22:00:00,2025-06-03 04:00:00,30.0,3.7
+TASK_0834,Review,Medium,Completed,None,9,2.7,4.2,5.8,2025-06-03 19:00:00,2025-06-05 03:00:00,32.0,5.3
+TASK_0835,Report Writing,Low,In Progress,None,5,2.3,5.0,4.9,2025-06-03 03:00:00,2025-06-03 21:00:00,18.0,4.5
+TASK_0836,Customer Support,High,Pending,None,9,2.1,2.2,3.4,2025-06-01 03:00:00,2025-06-03 04:00:00,49.0,4.4
+TASK_0837,Analysis,Medium,Completed,None,5,3.6,1.6,6.4,2025-06-02 22:00:00,2025-06-03 02:00:00,4.0,7.0
+TASK_0838,Training,High,In Progress,External,10,5.8,4.5,8.8,2025-06-01 20:00:00,2025-06-04 11:00:00,63.0,6.1
+TASK_0839,Research,Low,Pending,External,8,2.1,1.0,10.0,2025-06-05 04:00:00,2025-06-09 18:00:00,110.0,4.4
+TASK_0840,Development,Medium,Pending,External,1,3.3,3.1,6.5,2025-06-03 07:00:00,2025-06-07 06:00:00,95.0,2.5
+TASK_0841,Review,Medium,In Progress,None,7,3.4,2.0,4.6,2025-06-05 08:00:00,2025-06-07 20:00:00,60.0,4.0
+TASK_0842,Deployment,High,Completed,None,4,7.8,0.2,3.0,2025-06-03 17:00:00,2025-06-03 23:00:00,6.0,5.5
+TASK_0843,Planning,Low,Completed,None,5,7.7,1.7,3.3,2025-06-03 10:00:00,2025-06-08 08:00:00,118.0,3.6
+TASK_0844,Presentation,Medium,In Progress,None,6,6.5,1.3,5.3,2025-06-01 06:00:00,2025-06-02 03:00:00,21.0,4.6
+TASK_0845,Report Writing,High,Pending,None,5,2.3,3.4,4.3,2025-06-03 00:00:00,2025-06-05 07:00:00,55.0,3.5
+TASK_0846,Review,Medium,Pending,None,1,1.0,4.7,9.2,2025-06-01 15:00:00,2025-06-04 06:00:00,63.0,2.9
+TASK_0847,Design,Medium,Completed,None,9,2.9,1.3,4.3,2025-06-01 16:00:00,2025-06-03 05:00:00,37.0,4.6
+TASK_0848,Deployment,Low,Pending,None,2,2.5,4.1,4.4,2025-06-04 11:00:00,2025-06-08 14:00:00,99.0,2.6
+TASK_0849,Brainstorming,High,Pending,Internal,9,4.3,0.3,4.5,2025-06-04 14:00:00,2025-06-08 14:00:00,96.0,4.3
+TASK_0850,Deployment,Low,Pending,Internal,10,6.3,2.7,8.5,2025-06-05 01:00:00,2025-06-08 21:00:00,92.0,5.7
+TASK_0851,Training,High,In Progress,External,2,6.9,0.4,6.9,2025-06-04 02:00:00,2025-06-06 17:00:00,63.0,2.9
+TASK_0852,Planning,High,Completed,Internal,9,6.8,4.7,6.5,2025-06-02 09:00:00,2025-06-03 14:00:00,29.0,6.0
+TASK_0853,Design,Low,Pending,External,6,3.2,3.8,4.0,2025-06-02 08:00:00,2025-06-06 18:00:00,106.0,3.8
+TASK_0854,Report Writing,Medium,In Progress,None,9,5.7,3.3,8.4,2025-06-02 01:00:00,2025-06-05 04:00:00,75.0,5.4
+TASK_0855,Research,Low,In Progress,None,6,2.8,4.1,1.3,2025-06-03 17:00:00,2025-06-04 15:00:00,22.0,4.2
+TASK_0856,Training,Low,Completed,External,6,1.0,3.2,8.8,2025-06-03 14:00:00,2025-06-08 08:00:00,114.0,3.9
+TASK_0857,Group Project,High,Pending,External,2,5.8,4.8,5.6,2025-06-04 14:00:00,2025-06-09 03:00:00,109.0,3.3
+TASK_0858,Exam Preparation,High,In Progress,External,8,0.6,3.6,4.6,2025-06-02 16:00:00,2025-06-03 17:00:00,25.0,4.7
+TASK_0859,Development,Medium,Pending,External,3,3.6,4.6,5.5,2025-06-04 13:00:00,2025-06-08 13:00:00,96.0,3.3
+TASK_0860,Deployment,Medium,Completed,None,7,3.0,2.6,7.0,2025-06-03 09:00:00,2025-06-04 21:00:00,36.0,4.5
+TASK_0861,Review,Low,In Progress,External,5,5.7,0.6,1.1,2025-06-05 01:00:00,2025-06-06 18:00:00,41.0,3.2
+TASK_0862,Training,Low,Pending,Internal,3,6.2,2.6,8.8,2025-06-04 06:00:00,2025-06-08 22:00:00,112.0,3.5
+TASK_0863,Presentation,Low,In Progress,None,1,2.8,0.6,5.0,2025-06-01 09:00:00,2025-06-06 02:00:00,113.0,1.8
+TASK_0864,Meeting,Low,Completed,External,8,6.6,3.0,4.1,2025-06-01 14:00:00,2025-06-03 04:00:00,38.0,5.0
+TASK_0865,Presentation,Medium,Pending,None,3,2.7,2.4,2.2,2025-06-02 17:00:00,2025-06-07 07:00:00,110.0,2.4
+TASK_0866,Brainstorming,Medium,Completed,External,2,3.8,3.1,5.0,2025-06-04 20:00:00,2025-06-07 18:00:00,70.0,2.8
+TASK_0867,Exam Preparation,Medium,Pending,External,1,6.0,0.1,5.5,2025-06-03 08:00:00,2025-06-06 22:00:00,86.0,2.2
+TASK_0868,Design,Low,In Progress,None,4,5.7,1.0,4.6,2025-06-04 14:00:00,2025-06-05 03:00:00,13.0,4.2
+TASK_0869,Meeting,Medium,In Progress,External,8,7.9,2.5,7.1,2025-06-01 16:00:00,2025-06-05 14:00:00,94.0,5.1
+TASK_0870,Case Study,High,Completed,None,3,2.2,4.8,4.8,2025-06-03 11:00:00,2025-06-04 05:00:00,18.0,3.9
+TASK_0871,Deployment,Low,Pending,External,1,5.5,1.9,9.7,2025-06-01 08:00:00,2025-06-01 22:00:00,14.0,3.9
+TASK_0872,Development,High,Completed,None,4,5.1,2.1,6.4,2025-06-05 17:00:00,2025-06-10 11:00:00,114.0,3.4
+TASK_0873,Report Writing,High,Completed,External,9,7.4,3.6,8.3,2025-06-02 11:00:00,2025-06-06 08:00:00,93.0,5.6
+TASK_0874,Review,Low,In Progress,None,1,1.7,3.0,2.0,2025-06-04 00:00:00,2025-06-05 03:00:00,27.0,2.3
+TASK_0875,Group Project,High,Completed,External,2,6.1,1.5,4.6,2025-06-04 07:00:00,2025-06-07 15:00:00,80.0,2.7
+TASK_0876,Report Writing,Medium,Completed,None,9,4.8,2.1,4.0,2025-06-02 11:00:00,2025-06-06 14:00:00,99.0,4.6
+TASK_0877,Analysis,Medium,Pending,Internal,2,2.6,1.1,6.1,2025-06-02 23:00:00,2025-06-07 07:00:00,104.0,2.3
+TASK_0878,Meeting,Medium,Pending,Internal,3,4.1,4.8,8.8,2025-06-03 02:00:00,2025-06-03 09:00:00,7.0,5.9
+TASK_0879,Deployment,Medium,Completed,Internal,7,3.0,0.7,1.7,2025-06-05 00:00:00,2025-06-05 16:00:00,16.0,4.2
+TASK_0880,Bug Fixing,Medium,Pending,External,3,4.8,1.9,1.7,2025-06-05 22:00:00,2025-06-09 02:00:00,76.0,2.6
+TASK_0881,Documentation,Medium,Completed,External,9,7.2,0.1,8.7,2025-06-04 22:00:00,2025-06-07 10:00:00,60.0,5.1
+TASK_0882,Development,Medium,Completed,None,6,4.8,1.1,2.9,2025-06-03 21:00:00,2025-06-08 17:00:00,116.0,3.4
+TASK_0883,Documentation,Medium,Pending,None,3,5.2,3.9,7.0,2025-06-04 01:00:00,2025-06-08 06:00:00,101.0,3.5
+TASK_0884,Exam Preparation,Medium,In Progress,None,9,4.4,1.0,5.9,2025-06-04 07:00:00,2025-06-05 23:00:00,40.0,4.8
+TASK_0885,Planning,High,In Progress,External,1,0.9,0.4,8.5,2025-06-03 19:00:00,2025-06-05 22:00:00,51.0,2.1
+TASK_0886,Group Project,Low,In Progress,Internal,10,2.2,2.4,2.1,2025-06-05 21:00:00,2025-06-08 23:00:00,74.0,4.5
+TASK_0887,Research,Low,Pending,None,3,4.2,0.0,2.2,2025-06-01 21:00:00,2025-06-02 01:00:00,4.0,5.8
+TASK_0888,Planning,High,Pending,Internal,1,2.8,0.4,6.0,2025-06-04 04:00:00,2025-06-06 19:00:00,63.0,2.0
+TASK_0889,Presentation,Medium,In Progress,External,2,1.9,4.0,9.5,2025-06-04 07:00:00,2025-06-04 22:00:00,15.0,4.1
+TASK_0890,Meeting,Low,Completed,External,8,4.3,3.9,4.7,2025-06-05 19:00:00,2025-06-06 19:00:00,24.0,5.2
+TASK_0891,Development,Low,Completed,None,7,2.9,4.6,3.9,2025-06-04 20:00:00,2025-06-05 10:00:00,14.0,5.3
+TASK_0892,Customer Support,Low,In Progress,None,2,2.4,4.3,6.5,2025-06-01 05:00:00,2025-06-03 04:00:00,47.0,3.1
+TASK_0893,Brainstorming,High,Pending,None,2,4.0,3.4,9.4,2025-06-02 01:00:00,2025-06-06 23:00:00,118.0,3.2
+TASK_0894,Customer Support,Medium,In Progress,External,9,1.5,0.3,8.5,2025-06-04 02:00:00,2025-06-06 15:00:00,61.0,4.5
+TASK_0895,Report Writing,High,Pending,None,6,7.5,3.9,10.0,2025-06-04 15:00:00,2025-06-09 06:00:00,111.0,5.0
+TASK_0896,Design,Medium,Completed,None,5,7.0,4.2,1.2,2025-06-04 20:00:00,2025-06-06 19:00:00,47.0,4.0
+TASK_0897,Deployment,Medium,Completed,Internal,10,5.8,4.0,2.0,2025-06-01 02:00:00,2025-06-04 11:00:00,81.0,5.2
+TASK_0898,Analysis,Medium,Completed,Internal,6,1.3,2.5,6.5,2025-06-03 03:00:00,2025-06-07 08:00:00,101.0,3.6
+TASK_0899,Brainstorming,Medium,Completed,Internal,9,6.3,1.2,8.4,2025-06-04 01:00:00,2025-06-05 14:00:00,37.0,5.4
+TASK_0900,Development,Low,Pending,None,7,6.6,4.2,3.6,2025-06-03 11:00:00,2025-06-04 15:00:00,28.0,5.0
+TASK_0901,Exam Preparation,High,Completed,None,10,6.3,3.6,3.2,2025-06-03 14:00:00,2025-06-03 21:00:00,7.0,7.5
+TASK_0902,Bug Fixing,High,Pending,External,10,1.4,4.9,8.1,2025-06-03 16:00:00,2025-06-06 11:00:00,67.0,5.5
+TASK_0903,Case Study,Medium,Completed,None,9,5.3,0.8,1.5,2025-06-03 03:00:00,2025-06-08 02:00:00,119.0,4.2
+TASK_0904,Assignment,High,Pending,None,4,6.8,1.1,4.3,2025-06-05 10:00:00,2025-06-09 07:00:00,93.0,3.2
+TASK_0905,Report Writing,High,Completed,None,2,4.8,1.1,5.6,2025-06-04 17:00:00,2025-06-05 12:00:00,19.0,3.3
+TASK_0906,Customer Support,Medium,Completed,None,8,5.3,4.0,6.0,2025-06-04 03:00:00,2025-06-04 16:00:00,13.0,6.1
+TASK_0907,Planning,Low,Pending,None,4,3.9,0.9,7.6,2025-06-01 13:00:00,2025-06-06 05:00:00,112.0,3.1
+TASK_0908,Exam Preparation,Medium,Pending,None,9,4.5,0.3,4.2,2025-06-04 16:00:00,2025-06-07 13:00:00,69.0,4.4
+TASK_0909,Analysis,Medium,Completed,None,4,0.8,5.0,6.5,2025-06-03 23:00:00,2025-06-05 13:00:00,38.0,3.7
+TASK_0910,Analysis,Low,In Progress,None,8,5.3,0.1,6.3,2025-06-05 10:00:00,2025-06-09 00:00:00,86.0,4.3
+TASK_0911,Meeting,Low,Pending,External,9,1.1,4.2,5.9,2025-06-03 19:00:00,2025-06-04 04:00:00,9.0,6.4
+TASK_0912,Research,High,Pending,None,9,3.8,1.8,6.8,2025-06-02 03:00:00,2025-06-03 01:00:00,22.0,5.4
+TASK_0913,Research,Low,Pending,External,10,2.7,4.2,3.3,2025-06-03 22:00:00,2025-06-06 12:00:00,62.0,5.1
+TASK_0914,Report Writing,Medium,Completed,None,4,4.6,2.8,1.8,2025-06-01 09:00:00,2025-06-03 17:00:00,56.0,3.1
+TASK_0915,Customer Support,High,In Progress,None,1,1.5,4.5,2.1,2025-06-05 18:00:00,2025-06-10 17:00:00,119.0,2.0
+TASK_0916,Development,High,Pending,External,3,5.7,4.6,3.0,2025-06-03 08:00:00,2025-06-08 06:00:00,118.0,3.3
+TASK_0917,Case Study,Low,Pending,None,9,6.5,0.0,5.5,2025-06-05 03:00:00,2025-06-05 14:00:00,11.0,6.0
+TASK_0918,Analysis,High,Pending,None,4,1.7,0.4,8.6,2025-06-03 17:00:00,2025-06-07 02:00:00,81.0,2.9
+TASK_0919,Assignment,Low,Pending,None,5,1.3,1.3,7.3,2025-06-04 17:00:00,2025-06-05 06:00:00,13.0,4.3
+TASK_0920,Development,Low,In Progress,Internal,7,1.6,3.3,8.1,2025-06-05 20:00:00,2025-06-08 18:00:00,70.0,4.3
+TASK_0921,Development,Medium,Pending,None,5,7.1,4.4,4.2,2025-06-03 01:00:00,2025-06-04 18:00:00,41.0,4.4
+TASK_0922,Training,Medium,Pending,None,4,4.5,2.3,4.6,2025-06-01 13:00:00,2025-06-02 21:00:00,32.0,3.6
+TASK_0923,Case Study,Medium,Completed,External,2,4.0,3.0,4.5,2025-06-01 15:00:00,2025-06-02 09:00:00,18.0,3.4
+TASK_0924,Review,Medium,Pending,None,2,1.3,0.9,2.7,2025-06-03 05:00:00,2025-06-06 23:00:00,90.0,1.8
+TASK_0925,Group Project,Low,In Progress,None,4,5.4,4.0,1.6,2025-06-02 18:00:00,2025-06-03 20:00:00,26.0,3.8
+TASK_0926,Documentation,Low,In Progress,None,10,7.0,4.8,6.3,2025-06-02 17:00:00,2025-06-06 06:00:00,85.0,5.9
+TASK_0927,Bug Fixing,Medium,In Progress,External,10,6.7,1.3,9.9,2025-06-04 08:00:00,2025-06-06 09:00:00,49.0,5.8
+TASK_0928,Research,High,In Progress,None,9,5.2,2.5,2.5,2025-06-05 13:00:00,2025-06-09 03:00:00,86.0,4.6
+TASK_0929,Research,Medium,In Progress,None,8,1.1,0.4,1.4,2025-06-01 21:00:00,2025-06-03 04:00:00,31.0,3.7
+TASK_0930,Testing,Low,Completed,None,3,1.3,2.8,8.0,2025-06-03 19:00:00,2025-06-05 00:00:00,29.0,3.4
+TASK_0931,Research,Medium,In Progress,Internal,9,0.9,2.5,3.3,2025-06-01 18:00:00,2025-06-02 07:00:00,13.0,5.3
+TASK_0932,Case Study,Low,In Progress,None,5,2.4,0.7,8.5,2025-06-03 17:00:00,2025-06-05 19:00:00,50.0,3.5
+TASK_0933,Training,Low,Completed,Internal,3,1.5,2.2,7.3,2025-06-02 14:00:00,2025-06-02 21:00:00,7.0,4.9
+TASK_0934,Deployment,High,In Progress,None,5,2.5,1.7,9.5,2025-06-04 00:00:00,2025-06-06 10:00:00,58.0,3.8
+TASK_0935,Meeting,Low,Pending,Internal,10,3.4,2.6,4.7,2025-06-01 18:00:00,2025-06-04 15:00:00,69.0,5.0
+TASK_0936,Design,Low,Pending,Internal,4,7.6,2.9,7.0,2025-06-01 15:00:00,2025-06-04 13:00:00,70.0,4.0
+TASK_0937,Meeting,Medium,Pending,None,8,5.1,0.0,5.2,2025-06-03 05:00:00,2025-06-03 15:00:00,10.0,5.6
+TASK_0938,Brainstorming,Medium,Completed,None,5,6.8,3.8,6.7,2025-06-02 00:00:00,2025-06-04 10:00:00,58.0,4.4
+TASK_0939,Meeting,Medium,Completed,None,10,5.8,3.6,5.0,2025-06-05 15:00:00,2025-06-09 02:00:00,83.0,5.5
+TASK_0940,Design,Low,Completed,None,8,1.3,1.8,2.7,2025-06-01 17:00:00,2025-06-03 03:00:00,34.0,4.1
+TASK_0941,Planning,Low,In Progress,External,9,6.0,0.3,5.6,2025-06-01 22:00:00,2025-06-05 03:00:00,77.0,4.7
+TASK_0942,Case Study,Low,In Progress,None,4,2.6,3.8,5.8,2025-06-05 20:00:00,2025-06-06 18:00:00,22.0,4.0
+TASK_0943,Assignment,Low,Pending,None,7,5.3,4.8,8.3,2025-06-04 12:00:00,2025-06-05 19:00:00,31.0,5.4
+TASK_0944,Research,Medium,In Progress,None,2,3.1,1.2,7.6,2025-06-01 10:00:00,2025-06-04 22:00:00,84.0,2.6
+TASK_0945,Research,High,In Progress,Internal,6,8.0,1.6,7.0,2025-06-02 14:00:00,2025-06-03 21:00:00,31.0,4.7
+TASK_0946,Training,High,Completed,None,8,2.5,0.9,2.0,2025-06-05 08:00:00,2025-06-06 06:00:00,22.0,4.3
+TASK_0947,Testing,High,Pending,None,7,2.6,2.9,7.5,2025-06-03 19:00:00,2025-06-08 03:00:00,104.0,4.2
+TASK_0948,Training,Medium,In Progress,None,7,7.5,0.8,5.5,2025-06-02 00:00:00,2025-06-05 18:00:00,90.0,4.3
+TASK_0949,Deployment,Medium,In Progress,Internal,8,0.7,1.8,9.0,2025-06-03 14:00:00,2025-06-04 13:00:00,23.0,4.9
+TASK_0950,Deployment,Medium,In Progress,External,7,5.7,3.5,9.3,2025-06-04 23:00:00,2025-06-05 15:00:00,16.0,5.8
+TASK_0951,Analysis,Medium,In Progress,None,5,5.9,2.8,1.5,2025-06-02 05:00:00,2025-06-05 13:00:00,80.0,3.5
+TASK_0952,Testing,Medium,Completed,None,7,6.8,1.9,8.4,2025-06-02 20:00:00,2025-06-04 18:00:00,46.0,4.9
+TASK_0953,Training,Low,Pending,None,10,7.8,2.1,1.3,2025-06-04 17:00:00,2025-06-05 07:00:00,14.0,6.1
+TASK_0954,Research,Medium,Completed,None,3,7.8,2.8,4.3,2025-06-03 12:00:00,2025-06-05 15:00:00,51.0,3.5
+TASK_0955,Documentation,High,In Progress,Internal,5,1.0,0.0,5.9,2025-06-05 03:00:00,2025-06-05 21:00:00,18.0,3.6
+TASK_0956,Presentation,Low,Completed,External,7,6.7,0.4,2.3,2025-06-03 02:00:00,2025-06-03 22:00:00,20.0,4.5
+TASK_0957,Design,Low,Completed,None,9,5.3,4.4,7.7,2025-06-05 01:00:00,2025-06-07 10:00:00,57.0,5.6
+TASK_0958,Design,Medium,Pending,Internal,2,5.4,0.4,1.1,2025-06-01 08:00:00,2025-06-03 13:00:00,53.0,2.2
+TASK_0959,Meeting,High,Pending,None,4,1.5,3.5,2.5,2025-06-04 03:00:00,2025-06-05 10:00:00,31.0,3.2
+TASK_0960,Presentation,Medium,Completed,External,7,5.4,4.6,6.2,2025-06-01 01:00:00,2025-06-04 15:00:00,86.0,4.8
+TASK_0961,Testing,Medium,In Progress,Internal,1,7.9,1.4,7.4,2025-06-05 05:00:00,2025-06-05 12:00:00,7.0,5.0
+TASK_0962,Review,Low,Completed,None,2,7.3,1.9,9.2,2025-06-01 04:00:00,2025-06-02 05:00:00,25.0,3.8
+TASK_0963,Deployment,Medium,Pending,External,9,3.8,2.8,7.3,2025-06-03 13:00:00,2025-06-07 06:00:00,89.0,5.0
+TASK_0964,Meeting,Medium,In Progress,None,10,0.8,4.4,7.0,2025-06-03 20:00:00,2025-06-08 04:00:00,104.0,5.2
+TASK_0965,Development,High,Completed,None,7,3.2,4.7,4.5,2025-06-03 03:00:00,2025-06-04 21:00:00,42.0,4.6
+TASK_0966,Meeting,Medium,Completed,None,10,6.7,3.7,1.0,2025-06-04 13:00:00,2025-06-06 02:00:00,37.0,5.4
+TASK_0967,Review,Low,Pending,None,7,5.8,0.4,2.1,2025-06-01 04:00:00,2025-06-05 08:00:00,100.0,3.6
+TASK_0968,Planning,Low,Completed,External,6,3.9,3.3,5.8,2025-06-03 10:00:00,2025-06-05 09:00:00,47.0,4.2
+TASK_0969,Documentation,Low,In Progress,Internal,3,0.9,2.1,7.1,2025-06-03 19:00:00,2025-06-05 16:00:00,45.0,2.9
+TASK_0970,Development,Medium,Pending,External,10,3.7,2.4,4.8,2025-06-01 08:00:00,2025-06-03 03:00:00,43.0,5.2
+TASK_0971,Documentation,Low,In Progress,Internal,3,4.0,0.2,7.6,2025-06-04 20:00:00,2025-06-09 00:00:00,100.0,2.7
+TASK_0972,Meeting,Medium,In Progress,Internal,2,7.5,1.0,5.7,2025-06-01 21:00:00,2025-06-02 12:00:00,15.0,3.8
+TASK_0973,Deployment,Medium,Completed,None,6,5.3,4.0,1.7,2025-06-02 02:00:00,2025-06-02 07:00:00,5.0,6.8
+TASK_0974,Group Project,Low,In Progress,None,4,2.8,2.3,2.7,2025-06-01 09:00:00,2025-06-02 16:00:00,31.0,3.2
+TASK_0975,Design,Low,Pending,None,5,4.4,1.5,8.6,2025-06-04 07:00:00,2025-06-07 12:00:00,77.0,3.8
+TASK_0976,Review,Low,Pending,External,3,1.0,1.9,7.5,2025-06-05 09:00:00,2025-06-09 02:00:00,89.0,2.7
+TASK_0977,Group Project,High,In Progress,Internal,6,7.8,4.3,9.1,2025-06-05 09:00:00,2025-06-08 21:00:00,84.0,5.0
+TASK_0978,Presentation,Low,Pending,None,3,3.2,3.7,2.1,2025-06-03 12:00:00,2025-06-07 09:00:00,93.0,2.7
+TASK_0979,Design,Medium,Completed,External,8,4.1,1.4,9.9,2025-06-03 02:00:00,2025-06-06 00:00:00,70.0,4.8
+TASK_0980,Research,High,Pending,External,9,3.2,0.6,2.9,2025-06-01 09:00:00,2025-06-04 11:00:00,74.0,4.1
+TASK_0981,Development,Medium,Completed,None,4,5.6,1.3,1.1,2025-06-01 05:00:00,2025-06-05 20:00:00,111.0,2.8
+TASK_0982,Design,High,Completed,None,9,5.5,4.6,10.0,2025-06-03 13:00:00,2025-06-06 16:00:00,75.0,5.8
+TASK_0983,Review,Medium,In Progress,None,7,5.9,2.9,3.5,2025-06-05 16:00:00,2025-06-09 07:00:00,87.0,4.3
+TASK_0984,Exam Preparation,High,Completed,None,3,2.5,2.7,7.0,2025-06-01 04:00:00,2025-06-04 11:00:00,79.0,3.0
+TASK_0985,Group Project,Low,Completed,None,7,2.9,3.0,2.6,2025-06-03 21:00:00,2025-06-08 03:00:00,102.0,3.8
+TASK_0986,Planning,Low,In Progress,None,1,1.4,1.8,6.2,2025-06-03 14:00:00,2025-06-07 02:00:00,84.0,2.0
+TASK_0987,Training,Medium,Pending,None,3,5.4,4.0,9.1,2025-06-03 07:00:00,2025-06-07 06:00:00,95.0,3.8
+TASK_0988,Training,High,In Progress,None,6,0.8,2.6,3.9,2025-06-03 10:00:00,2025-06-07 22:00:00,108.0,3.3
+TASK_0989,Review,High,In Progress,Internal,4,5.0,0.6,7.0,2025-06-03 14:00:00,2025-06-04 03:00:00,13.0,4.3
+TASK_0990,Review,Low,Completed,None,7,7.0,0.6,2.7,2025-06-05 14:00:00,2025-06-09 07:00:00,89.0,3.9
+TASK_0991,Report Writing,Low,In Progress,External,3,7.2,2.7,6.6,2025-06-04 16:00:00,2025-06-09 01:00:00,105.0,3.5
+TASK_0992,Development,High,Completed,None,1,3.9,4.7,4.0,2025-06-03 10:00:00,2025-06-05 22:00:00,60.0,2.7
+TASK_0993,Presentation,Low,In Progress,None,9,3.9,1.5,2.9,2025-06-03 02:00:00,2025-06-07 06:00:00,100.0,4.3
+TASK_0994,Report Writing,High,Pending,Internal,6,1.1,4.3,3.8,2025-06-03 01:00:00,2025-06-06 18:00:00,89.0,3.7
+TASK_0995,Documentation,High,Completed,None,8,5.5,3.8,2.6,2025-06-01 03:00:00,2025-06-05 18:00:00,111.0,4.6
+TASK_0996,Research,Medium,In Progress,None,3,6.7,1.2,9.1,2025-06-05 07:00:00,2025-06-06 23:00:00,40.0,3.7
+TASK_0997,Deployment,Medium,Pending,External,8,2.3,0.2,4.6,2025-06-02 23:00:00,2025-06-06 07:00:00,80.0,3.8
+TASK_0998,Deployment,Medium,In Progress,None,2,3.7,0.5,3.2,2025-06-02 07:00:00,2025-06-06 05:00:00,94.0,2.0
+TASK_0999,Research,Low,Pending,None,4,6.8,3.6,5.0,2025-06-05 23:00:00,2025-06-08 18:00:00,67.0,3.8
+TASK_1000,Design,High,In Progress,None,3,7.1,1.0,3.9,2025-06-03 02:00:00,2025-06-06 12:00:00,82.0,2.9
