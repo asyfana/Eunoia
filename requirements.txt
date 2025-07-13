@@ -1,0 +1,11 @@
+streamlit
+streamlit-lottie
+pandas
+numpy
+scikit-learn
+joblib
+gspread
+oauth2client
+plotly
+textblob
+requests
