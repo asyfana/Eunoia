@@ -14,6 +14,11 @@ import plotly.express as px
 from textblob import TextBlob
 from streamlit_lottie import st_lottie
 import requests
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
+import json
+import streamlit as st
+
 
 def load_lottie_url(url):
     r = requests.get(url)
@@ -21,12 +26,6 @@ def load_lottie_url(url):
         return r.json()
     else:
         return None
-
-
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
-import json
-import streamlit as st
 
 def get_google_sheets():
     scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
@@ -83,35 +82,6 @@ if not priority_sheet.get_all_values():
     ])
 
 
-# ✅ Now access sheets like this:
-#data1 = sheets["User"].get_all_records()
-#data2 = sheets["Task_user"].get_all_records()
-#data3 = sheets["ML_task"].get_all_records()
-#data4 = sheets["User_Mood"].get_all_records()
-#data5 = sheets["Recommended_task_priority"].get_all_records()
-
-# Convert data to DataFrames
-#df1 = pd.DataFrame(data1)
-#df2 = pd.DataFrame(data2)
-#df3 = pd.DataFrame(data3)
-#df4 = pd.DataFrame(data4)
-#df5 = pd.DataFrame(data5)
-
-# Show DataFrames in Streamlit
-#st.subheader("Data User")
-#st.dataframe(df1)
-
-#st.subheader("Data  task user")
-#st.dataframe(df2)
-
-#st.subheader("Data ML task")
-#st.dataframe(df3)
-
-#st.subheader("Data User Mood")
-#st.dataframe(df4)
-
-#st.subheader("Data Recommended task priority")
-#st.dataframe(df5)
 
 
 
