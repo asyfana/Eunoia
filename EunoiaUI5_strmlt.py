@@ -23,9 +23,18 @@ def load_lottie_url(url):
         return None
 
 
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
+import json
+import streamlit as st
+
 def get_google_sheets():
     scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-    credentials = ServiceAccountCredentials.from_json_keyfile_name("google_sheet_keys_aisyah.json", scope)
+
+    # Load credentials from Streamlit secrets
+    credentials_dict = st.secrets["gcp_service_account"]
+    credentials = ServiceAccountCredentials.from_json_keyfile_dict(credentials_dict, scope)
+
     client = gspread.authorize(credentials)
     spreadsheet = client.open("Eunoia_Data_streamlit")
 
@@ -36,7 +45,9 @@ def get_google_sheets():
         "User_Mood": spreadsheet.get_worksheet(3),
         "Recommended_task_priority": spreadsheet.get_worksheet(4),
     }
+
     return sheets
+
 
 # ✅ Then call it like this:
 sheets = get_google_sheets()
