@@ -15,8 +15,6 @@ from textblob import TextBlob
 from streamlit_lottie import st_lottie
 import requests
 
-
-
 def load_lottie_url(url):
     r = requests.get(url)
     if r.status_code == 200:
