@@ -15,6 +15,8 @@ from textblob import TextBlob
 from streamlit_lottie import st_lottie
 import requests
 
+
+
 def load_lottie_url(url):
     r = requests.get(url)
     if r.status_code == 200:
@@ -23,18 +25,9 @@ def load_lottie_url(url):
         return None
 
 
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
-import json
-import streamlit as st
-
 def get_google_sheets():
     scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-
-    # Load credentials from Streamlit secrets
-    credentials_dict = st.secrets["gcp_service_account"]
-    credentials = ServiceAccountCredentials.from_json_keyfile_dict(credentials_dict, scope)
-
+    credentials = ServiceAccountCredentials.from_json_keyfile_name("google_sheet_keys_aisyah.json", scope)
     client = gspread.authorize(credentials)
     spreadsheet = client.open("Eunoia_Data_streamlit")
 
@@ -45,9 +38,7 @@ def get_google_sheets():
         "User_Mood": spreadsheet.get_worksheet(3),
         "Recommended_task_priority": spreadsheet.get_worksheet(4),
     }
-
     return sheets
-
 
 # ✅ Then call it like this:
 sheets = get_google_sheets()
@@ -116,6 +107,9 @@ if not priority_sheet.get_all_values():
 
 
 import pandas as pd
+import streamlit as st
+import pandas as pd
+import numpy as np
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OrdinalEncoder
@@ -157,10 +151,8 @@ joblib.dump(model, "urgency_model.pkl")
 joblib.dump(encoder, "urgency_encoder.pkl")
 
 
-import streamlit as st
-import pandas as pd
-import numpy as np
-import joblib
+
+
 
 # Load model and encoder
 model = joblib.load("urgency_model.pkl")
@@ -208,11 +200,6 @@ if st.sidebar.button("Enter"):
         st.sidebar.success("Logged in successfully!")
 
 
-
-
-
-
-
 # Display title and quote
 st.markdown("""
     <h1 style='text-align: center;'>EunoiaVR</h1>
@@ -234,121 +221,245 @@ if st.session_state.logged_in:
     page = st.sidebar.selectbox('choose a page', ['Mood', 'mood Progress', 'Task Priority', 'Chat with companion'])
     
     if page == 'Mood':
-        # Load mood messages from Excel
-        Mood_messages = pd.read_excel("mood_messages_extended.xlsx")
+        # Load mood messages
+        Mood_messages = pd.read_csv("(latest)mood_messages.csv")
 
-        # Mood selection interface
-        st.write("### Mood Selection")
+        # Header Section
         st.markdown("""
-            <h3 style='text-align: center;'>How is your mood? (DD/MM/YY)</h3>
+            <div style='text-align: center; padding: 10px 0;'>
+                <h2>💖 How are you feeling today?</h2>
+                <p style='font-size: 16px; color: #555;'>Let your companion know how your heart feels right now (DD/MM/YY).</p>
+            </div>
         """, unsafe_allow_html=True)
 
-        # Get unique mood options from the Excel sheet
+        # Mood selection
         mood_options = Mood_messages["Mood"].unique().tolist()
         button_container = st.columns(3)
 
+        st.markdown("<h4 style='text-align: center;'>Click the mood that matches your feeling:</h4>", unsafe_allow_html=True)
+        
         for i, mood in enumerate(mood_options):
-            if button_container[i % 3].button(mood):
+            if button_container[i % 3].button(f"🌀 {mood}"):
                 st.session_state.mood = mood
                 now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 sheets["User_Mood"].append_row([username, now, mood])
-                st.success("Mood logged to Google Sheet!")
+                st.success("✅ Mood saved! Your companion is here for you.")
 
-        # Show message if a mood has been selected
+        # If mood selected
         if "mood" in st.session_state and st.session_state.mood:
             current_mood = st.session_state.mood
-
-            # Filter the Excel dataframe for matching mood
             filtered = Mood_messages[Mood_messages["Mood"] == current_mood]
-            
+
             if not filtered.empty:
-                row = filtered.sample(1).iloc[0]  # Random message per mood
+                row = filtered.sample(1).iloc[0]
                 message = row["Encouraging Message"]
                 suggestion = row["Suggested Activity"]
             else:
                 message = "You're doing your best. Keep going!"
                 suggestion = "Take a moment to relax and reflect."
 
-            # Display UI elements
-            st.markdown(f"<h3 style='text-align: center;'>{st.session_state.character}</h3>", unsafe_allow_html=True)
-            st.markdown(f"<h3 style='text-align: center;'>Current Mood: {current_mood}</h3>", unsafe_allow_html=True)
+            st.markdown(f"<h3 style='text-align: center; color: #6C63FF;'>{st.session_state.character} is here for you 💬</h3>", unsafe_allow_html=True)
+            st.markdown(f"<h4 style='text-align: center;'>Current Mood: <span style='color:#FF8C42'>{current_mood}</span></h4>", unsafe_allow_html=True)
 
+            # Display character video and mood-based content
             col1, col2 = st.columns([3, 2.5])
             with col1:
-                st.video(f"Characters/{st.session_state.character}_Talk.mp4")
+                # Define mood-to-image mapping
+                mood_image_map = {
+                    "Miserable": {"Eun": "E1.jpg", "Noia": "N1.jpg"},
+                    "Sad": {"Eun": "E2.jpg", "Noia": "N2.jpg"},
+                    "Happy": {"Eun": "E3.jpg", "Noia": "N3.jpg"},
+                    "Default": {"Eun": "E4.jpg", "Noia": "N4.jpg"}
+                }
+
+                # Get current character
+                character = st.session_state.character  # should be "Eun" or "Noia"
+
+                # Select the appropriate image
+                if current_mood in mood_image_map:
+                    image_file = mood_image_map[current_mood].get(character, "E4.jpg")
+                else:
+                    image_file = mood_image_map["Default"].get(character, "E4.jpg")
+
+                # Full path to the image inside the character subfolder
+                image_path = f"Characters/{character}/{image_file}"
+
+                # Display the image
+                with col1:
+                    st.image(image_path, use_column_width=True)
+
 
             with col2:
                 st.markdown(
                     f"""
-                    <div style='border: 2px solid black; padding: 20px; border-radius: 10px; text-align: center;'>
-                        <p><strong>Activity Suggestions that you can do:</strong></p>
-                        <ul style='list-style-position: inside; text-align: left;'>
+                    <div style='border: 2px solid #cfcfcf; background-color: #f9f9f9; padding: 20px; border-radius: 15px;'>
+                        <h4 style='text-align: center; color: #4B4453;'>🌱 Here's something you might enjoy:</h4>
+                        <ul style='list-style-position: inside; color: #333; font-size: 16px;'>
                             <li>{suggestion}</li>
                         </ul>
                     </div>
-                    """,
-                    unsafe_allow_html=True
+                    """, unsafe_allow_html=True
                 )
 
             st.markdown(
                 f"""
-                <div style='border: 2px solid black; padding: 10px; border-radius: 10px; text-align: center;'>
-                    <p><strong>{st.session_state.character}:</strong></p>
-                    <p><em>{message}</em></p>
+                <div style='margin-top: 20px; border: 2px solid #ffd6d6; background-color: #fff0f0; padding: 15px 20px; border-radius: 15px;'>
+                    <p style='text-align: center; font-size: 18px;'>
+                        <strong>{st.session_state.character} says:</strong><br>
+                        <em>“{message}”</em>
+                    </p>
                 </div>
-                """,
-                unsafe_allow_html=True
+                """, unsafe_allow_html=True
             )
 
-        
+            
 
     elif page == 'mood Progress':
-        # -------------------- Mood Progress Page --------------------
         st.subheader("📊 Mood Progress Over Time")
 
-        # Step 1: Load the sheet into a DataFrame
         mood_df = get_mood_data()
-
-        # Step 2: Convert 'Date' to datetime
         mood_df["DateTime"] = pd.to_datetime(mood_df["DateTime"])
-
-        # Step 3: Filter by username
         user_mood_df = mood_df[mood_df["Username"].str.lower() == st.session_state.username.lower()]
 
-        
         if not user_mood_df.empty:
-            # Sort by datetime
+            import plotly.graph_objects as go
+            from io import BytesIO
+            import base64
+
+            # 📅 Date filter
+            min_date = user_mood_df["DateTime"].min().date()
+            max_date = user_mood_df["DateTime"].max().date()
+            start_date, end_date = st.date_input("Filter by date range:",
+                                                value=[min_date, max_date],
+                                                min_value=min_date,
+                                                max_value=max_date)
+
+            user_mood_df = user_mood_df[
+                (user_mood_df["DateTime"].dt.date >= start_date) &
+                (user_mood_df["DateTime"].dt.date <= end_date)
+            ]
+
+            # 🧠 Mood valence with emoji labels
+            mood_valence = {
+                "Miserable": -3,
+                "Sad": -2,
+                "Tired": -1,
+                "Bored": -1,
+                "Neutral": 0,
+                "Calm": 1,
+                "Relaxed": 1,
+                "Happy": 2,
+                "Content": 2,
+                "Excited": 3,
+                "Elated": 3
+            }
+
+            mood_emoji_labels = {
+                -3: "😢 Miserable",
+                -2: "😞 Sad",
+                -1: "🥱 Tired/Bored",
+                0: "😐 Neutral",
+                1: "😌 Calm/Relaxed",
+                2: "😊 Happy/Content",
+                3: "🤩 Excited/Elated"
+            }
+
+            user_mood_df["Valence"] = user_mood_df["Mood"].map(mood_valence).fillna(0)
             user_mood_df = user_mood_df.sort_values("DateTime")
 
-            # Plot with Plotly
-            fig = px.line(
-                user_mood_df,
-                x="DateTime",
-                y="Mood",
-                markers=True,
-                title="Mood Timeline (with Dots)",
+            def valence_to_color(val):
+                if val <= -2:
+                    return "red"
+                elif val == -1:
+                    return "orange"
+                elif val == 0:
+                    return "gray"
+                elif val == 1:
+                    return "lightgreen"
+                else:
+                    return "green"
+
+            colors = user_mood_df["Valence"].apply(valence_to_color)
+            user_mood_df["RollingAverage"] = user_mood_df["Valence"].rolling(window=3, min_periods=1).mean()
+
+            mood_trace = go.Scatter(
+                x=user_mood_df["DateTime"],
+                y=user_mood_df["Valence"],
+                mode="lines+markers",
+                line=dict(color="royalblue", width=2),
+                marker=dict(color=colors, size=10),
+                name="Mood Valence",
+                customdata=user_mood_df["Mood"],
+                hovertemplate="<b>%{x}</b><br>Mood: %{customdata}<br>Valence: %{y}"
             )
 
-            fig.update_traces(line=dict(shape="linear"))  # Optional: stepped or spline lines
-            fig.update_layout(
+            trend_trace = go.Scatter(
+                x=user_mood_df["DateTime"],
+                y=user_mood_df["RollingAverage"],
+                mode="lines",
+                line=dict(color="black", dash="dash"),
+                name="3-Entry Moving Average"
+            )
+
+            layout = go.Layout(
+                title="Mood Timeline with Emotional Valence",
                 xaxis_title="Date/Time",
-                yaxis_title="Mood",
-                yaxis=dict(type='category'),  # Keep mood as category
+                yaxis_title="Emotional Valence",
+                yaxis=dict(
+                    tickmode='array',
+                    tickvals=list(mood_emoji_labels.keys()),
+                    ticktext=list(mood_emoji_labels.values())
+                ),
                 template="plotly_white"
             )
 
+            fig = go.Figure(data=[mood_trace, trend_trace], layout=layout)
             st.plotly_chart(fig, use_container_width=True)
 
+            
+
+            # ---------------- Mood Summary ----------------
+            st.markdown("### 🧠 Mood Summary")
+
+            # Count most common mood
+            most_common = user_mood_df["Mood"].mode().values[0]
+            count = user_mood_df["Mood"].value_counts()[most_common]
+
+            # Calculate average valence
+            avg_valence = user_mood_df["Valence"].mean().round(2)
+
+            # Calculate longest same-mood streak
+            streak = 1
+            max_streak = 1
+            prev = None
+
+            for mood in user_mood_df["Mood"]:
+                if mood == prev:
+                    streak += 1
+                    max_streak = max(max_streak, streak)
+                else:
+                    streak = 1
+                    prev = mood
+
+            # Summary layout
+            col1, col2, col3 = st.columns(3)
+
+            with col1:
+                st.metric("Most Frequent Mood", most_common, f"{count} times")
+
+            with col2:
+                st.metric("Average Valence", avg_valence)
+
+            with col3:
+                st.metric("Longest Mood Streak", f"{max_streak} days")
+
+
+            # 📊 Show data table
             with st.expander("See raw data"):
                 st.dataframe(user_mood_df.sort_values("DateTime", ascending=False))
 
         else:
-            st.info("No mood entries found for your account.")
-
-        
-        #If you ever want to debug what's inside your DataFrame, use:
-        #st.write(user_mood_df)
-        #st.write(user_mood_df["Mood"].value_counts())
+            st.warning("No mood data available.")
 
     
     
