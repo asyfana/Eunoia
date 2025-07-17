@@ -637,7 +637,7 @@ if st.session_state.logged_in:
         def main():
             st.write("Hello! I'm here to listen. Feel free to share what's on your mind.")
 
-            faq_data = load_data()
+            faq_data = load_chat_data()
 
             if "messages" not in st.session_state:
                 st.session_state.messages = []
