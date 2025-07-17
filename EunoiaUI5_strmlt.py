@@ -18,6 +18,7 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import json
 import streamlit as st
+from textblob import TextBlob
 
 
 def load_lottie_url(url):
@@ -584,18 +585,18 @@ if st.session_state.logged_in:
     
   
     elif page == 'Chat with companion':
-        st.write("### You can chat with your companion here!")
+        st.title("🧸  You can chat with your companion here!")
 
-        from textblob import TextBlob  # Make sure this is imported at the top of the file
+        st.write("Chat with me about anything — I'm here to listen 💬") 
 
         @st.cache_data
-        def load_data():
+        def load_chat_data():
             try:
-                data = pd.read_csv('train.csv')
-                data.dropna(subset=['Context', 'Response'], inplace=True)
-                return data
+                df = pd.read_csv('Chat_NLP.csv')  # Updated to your new dataset
+                df.dropna(subset=['Context', 'Response'], inplace=True)
+                return df
             except FileNotFoundError:
-                st.error("The 'train.csv' file was not found.")
+                st.error("The 'Chat_NLP.csv' file was not found.")
                 return None
 
         def detect_sentiment(text):
@@ -656,8 +657,6 @@ if st.session_state.logged_in:
                     raw_response = get_response(prompt, faq_data)
                     final_response = personalize_response(raw_response, sentiment)
                     st.markdown(final_response)
-
-
 
                 st.session_state.messages.append({"role": "assistant", "content": final_response})
 
