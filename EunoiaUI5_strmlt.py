@@ -635,7 +635,6 @@ if st.session_state.logged_in:
                 return "I'm not sure how to answer that. Can you please try rephrasing?"
 
         def main():
-            st.title("Your Virtual Companion")
             st.write("Hello! I'm here to listen. Feel free to share what's on your mind.")
 
             faq_data = load_data()
