@@ -166,6 +166,22 @@ if "username" not in st.session_state:
     st.session_state.username = ""
 
 
+st.markdown("""
+    <style>
+    [data-testid="stSidebar"] {
+        background-color: #FFCCCC;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+
+# Sidebar Login System
+st.sidebar.markdown("""
+    <div style="background-color:#FFFFCC; padding: 10px; border-radius: 10px; text-align: center;">
+        <h3 style="color:#663300;">🌼 Pages Navigation 🌼</h3>
+    </div>
+""", unsafe_allow_html=True)
+
 
 # Sidebar Login System
 st.sidebar.title("Hello!")
@@ -182,10 +198,20 @@ if st.sidebar.button("Enter"):
 
 # Display title and quote
 st.markdown("""
-    <h1 style='text-align: center;'>EunoiaVR</h1>
-    <h3 style='text-align: center; color: gray;'>Your Virtual Companion! </h3>
-    <hr>
+    <div style="
+        background-color: #ffe4ec;
+        border-radius: 20px;
+        padding: 40px 20px;
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+        margin-top: 30px;
+        text-align: center;
+    ">
+        <h1 style='color: #ff69b4; font-size: 48px;'>🌞 Eunoia</h1>
+        <h3 style='color: #a0522d; font-style: italic;'>🌸 Your Virtual Companion! 🌸</h3>
+    </div>
+    <hr style="margin-top: 40px;">
 """, unsafe_allow_html=True)
+
 
 if st.session_state.logged_in:
 
@@ -298,7 +324,20 @@ if st.session_state.logged_in:
         st.subheader("📊 Mood Progress Over Time")
 
         mood_df = get_mood_data()
+
+        import pytz
         mood_df["DateTime"] = pd.to_datetime(mood_df["DateTime"])
+        # Adjust to Malaysia time
+        local_tz = pytz.timezone("Asia/Kuala_Lumpur")
+        # Convert to datetime (no timezone localization)
+        mood_df["DateTime"] = pd.to_datetime(mood_df["DateTime"])
+
+        # OPTIONAL: just display formatting, no timezone shifting
+        mood_df["FormattedTime"] = mood_df["DateTime"].dt.strftime('%Y-%m-%d %H:%M')
+
+
+
+
         user_mood_df = mood_df[mood_df["Username"].str.lower() == st.session_state.username.lower()]
 
         if not user_mood_df.empty:
