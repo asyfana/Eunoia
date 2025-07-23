@@ -234,7 +234,7 @@ if st.session_state.logged_in:
         st.markdown("""
             <div style='text-align: center; padding: 10px 0;'>
                 <h2>💖 How are you feeling today?</h2>
-                <p style='font-size: 16px; color: #555;'>Let your companion know how your heart feels right now (DD/MM/YY).</p>
+                <p style='font-size: 16px; color: #555;'>Let your companion know how your heart feels right now.</p>
             </div>
         """, unsafe_allow_html=True)
 
