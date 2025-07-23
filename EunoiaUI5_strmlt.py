@@ -292,7 +292,7 @@ if st.session_state.logged_in:
 
                 # Display the image
                 with col1:
-                    st.image(image_path, use_column_width=True)
+                    st.image(image_path, use_container_width=True)
 
 
             with col2:
