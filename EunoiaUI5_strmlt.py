@@ -178,7 +178,7 @@ st.markdown("""
 # Sidebar Login System
 st.sidebar.markdown("""
     <div style="background-color:#FFFFCC; padding: 10px; border-radius: 10px; text-align: center;">
-        <h3 style="color:#663300;">🌼 Pages Navigation 🌼</h3>
+        <h3 style="color:#663300;">🌼Pages Navigation🌼</h3>
     </div>
 """, unsafe_allow_html=True)
 
